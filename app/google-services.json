@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "701756978964",
+    "firebase_url": "https://hcms-70be5.firebaseio.com",
+    "project_id": "hcms-70be5",
+    "storage_bucket": "hcms-70be5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701756978964:android:d1621c498cddd9d9",
+        "android_client_info": {
+          "package_name": "com.bhargav.hcms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701756978964-3p4umob17n9gik36qi2mfg20ok1lf2n5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaYBGHI_y_JjNd1JnQMUPKv7xF6h1yTYI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

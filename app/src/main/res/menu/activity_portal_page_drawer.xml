@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_livechat"
+            android:icon="@drawable/livechat"
+            android:title="@string/livechat_userinfo" />
+        <item
+            android:id="@+id/nav_admin"
+            android:icon="@drawable/admin"
+            android:title="@string/title_activity_admin" />
+        <item
+            android:id="@+id/nav_doctor"
+            android:icon="@drawable/doctor"
+            android:title="@string/title_activity_doctor" />
+        <item
+            android:id="@+id/nav_googlemap"
+            android:icon="@drawable/googlemap"
+            android:title="@string/title_activity_google_map" />
+        <item
+            android:id="@+id/nav_tophospital"
+            android:icon="@drawable/tophospital"
+            android:title="@string/title_activity_top_hsp" />
+        <item
+            android:id="@+id/nav_hospital"
+            android:icon="@drawable/hostpital_building"
+            android:title="@string/title_activity_hospital" />
+        <item
+            android:id="@+id/nav_donateblood"
+            android:icon="@drawable/blooddonation"
+            android:title="@string/title_activity_donate_bld" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_message"
+                android:icon="@drawable/message"
+                android:title="@string/title_activity_msg" />
+            <item
+                android:id="@+id/nav_call"
+                android:icon="@drawable/call"
+                android:title="@string/title_activity_calls" />
+        </menu>
+    </item>
+    <item android:title="@string/daily_tips">
+        <menu>
+            <item
+                android:id="@+id/nav_vitamins"
+                android:icon="@drawable/vitamins"
+                android:title="@string/vitamins" />
+            <item
+                android:id="@+id/nav_totalhealth"
+                android:icon="@drawable/totalhealth"
+                android:title="@string/totalhealth" />
+        </menu>
+    </item>
+    <item android:title="@string/others">
+        <menu>
+            <item
+                android:id="@+id/nav_alarm"
+                android:icon="@drawable/alarm"
+                android:title="@string/title_activity_alrm" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/feedback"
+                android:title="@string/feedback" />
+        </menu>
+    </item>
+</menu>

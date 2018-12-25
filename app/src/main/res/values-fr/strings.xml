@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HCMS</string>
+    <string name="skip">Sauter</string>
+    <string name="next">Suivant</string>
+    <string name="start">Début</string>
+    <string name="slide_1_title">Entraînement quotidien</string>
+    <string name="slide_1_desc">Définissez votre programme d\'entraînement quotidien à l'aide d'un entraîneur</string>
+    <string name="slide_2_title">Techniques de méditation </string>
+    <string name="slide_2_desc">En savoir plus sur les différentes techniques de méditation et les pratiquer</string>
+    <string name="slide_3_title">Tableau de régime</string>
+    <string name="slide_3_desc">Faites votre tableau de régime à l\'aide d'experts en santé</string>
+    <string name="Welcome">Bienvenue</string>
+    <string name="choose">Choisissez la langue</string>
+    <string name="health">Système de gestion des soins de santé</string>
+    <string name="login">s\'identifier</string>
+    <string name="login_activities">Connectez-vous ici</string>
+    <string name="about">À propos de nous</string>
+    <string name="about_activities">InfraStructure d\'hôpital</string>
+    <string name="contact">Contactez nous</string>
+    <string name="contact_activities">Clarifiez vos détails</string>
+    <string name="developed">Développé par</string>
+    <string name="name">G BHARGAV</string>
+    <string name="text">N\'hésitez pas à nous contacter pour clarifier vos doutes et améliorer le statut de votre demande</string>
+    <string name="email">Email</string>
+    <string name="emailid">bhargav.gurramkonda@gmail.com</string>
+    <string name="contact1">Contact</string>
+    <string name="phone">9492515352,7097034116</string>
+    <string name="version">version: 1.0.0</string>
+    <string name="password">Mot de passe</string>
+    <string name="forgot_password">Mot de passe oublié</string>
+    <string name="link_to_register">Inscrivez-vous ici</string>
+    <string name="minimum_password">Mot de passe trop court, entrez au moins 6 caractères!</string>
+    <string name="auth_failed">L\'authentification a échoué, vérifiez votre email et votre mot de passe ou inscrivez-vous</string>
+    <string name="portal">Page portail</string>
+    <string name="sign_in_short">registre</string>
+    <string name="link_to_login">Déjà inscrit.Connectez-vous ici!</string>
+    <string name="forgot_password_msg">Nous avons juste besoin de votre email ID enregistré pour vous envoyer des instructions pour réinitialiser votre mot de passe</string>
+    <string name="reset_password">réinitialiser le mot de passe</string>
+    <string name="back">Retour</string>
+    <string name="admin">Admin</string>
+    <string name="admin_details">Détails de l\'administrateur</string>
+    <string name="doctor">Médecin</string>
+    <string name="doctor_activities">Docteur Détails</string>
+    <string name="message">Message</string>
+    <string name="message_me">Message au docteur et à l\'administrateur</string>
+    <string name="call">Appel</string>
+    <string name="call_me">Appel au docteur et à l\'administrateur</string>
+    <string name="feedback">Retour d\'information</string>
+    <string name="livechat_userinfo">Chat en direct et informations utilisateur</string>
+    <string name="livechatuserinfo">LC et UI</string>
+    <string name="googlemap">Google Map</string>
+    <string name="google_map">Naviguez dans les hôpitaux proches</string>
+    <string name="totalhealth">Conseils de santé totale</string>
+    <string name="totalhealth_me">Total des conseils de santé</string>
+    <string name="tophospital">Top Hôpitaux</string>
+    <string name="tophospital_me">Top 15 des hôpitaux en Inde</string>
+    <string name="hospital">Les hôpitaux</string>
+    <string name="hospital1">Hosps en Inde</string>
+    <string name="hospitals">Hôpitaux en Inde</string>
+    <string name="logout_message">Êtes-vous sûr de vouloir vous déconnecter de HCMS?</string>
+    <string name="thanks_message">Merci d’utiliser HCMS Application.Any Doubts Please Feedback</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="india_me">États et villes hôpitaux en Inde</string>
+    <string name="blooddonation">Donner du sang</string>
+    <string name="blooddonation_me">Donner du sang sauver la vie</string>
+    <string name="alarm">Alarme</string>
+    <string name="alarm_me">Rappel de santé</string>
+    <string name="vitamins">Vitamines</string>
+    <string name="vitamins_me">Conseils de vitamines</string>
+    <string name="medications">Les médicaments</string>
+    <string name="medications_me">Tablettes Détails</string>
+    <string name="phoneno">Entrez le numéro de téléphone ....</string>
+    <string name="message1">Texte votre message ....</string>
+    <string name="sendmessage">Envoyer le message</string>
+    <string name="msg_sent">Message envoyé</string>
+    <string name="integer_only">S\'il vous plaît entrer uniquement en entier</string>
+    <string name="msg_permission">Vous n’avez pas l’autorisation requise pour effectuer l’action</string>
+    <string name="title_activity_tophospital_web_view">Détails de l\'hôpital</string>
+    <string name="text1">Entrez le nom, le groupe sanguin, le numéro de téléphone</string>
+    <string name="donateblood">Donner du sang</string>
+    <string name="title_activity_login">se connecter</string>
+    <string name="title_activity_register">S\'inscrire</string>
+    <string name="title_activity_reset_password">Réinitialiser l\'activité du mot de passe</string>
+    <string name="to">À:</string>
+    <string name="subject">Assujettir:</string>
+    <string name="message2">Message:</string>
+    <string name="feedback1">Commentaires nous pour clarifier vos doutes</string>
+    <string name="doctordetails">Docteur Détails</string>
+    <string name="admindetails">Détails de l\'administrateur</string>
+    <string name="help">Aidez-moi</string>
+    <string name="help_me">Clarifiez vos doutes</string>
+    <string name="logout">Connectez - Out</string>
+    <string name="logout_me">Déconnexion de HCMS</string>
+    <string name="immunization">Immunisation</string>
+    <string name="diet_plan">Régime alimentaire</string>
+    <string name="exercise">Exercice</string>
+    <string name="routinemaker">Fabricant de routine</string>
+    <string name="workoutmanagement">Gestion des séances d\'entraînement</string>
+    <string name="pimples">Acné / boutons</string>
+    <string name="scars">Cicatrices</string>
+    <string name="facecare">Soins du visage</string>
+    <string name="hairloss">Chute de cheveux</string>
+    <string name="dandruff">Pellicules</string>
+    <string name="hairgrowth">La pousse des cheveux</string>
+    <string name="cough">Rhume et la toux</string>
+    <string name="stomach_ache">Maux d\'estomac</string>
+    <string name="headache">Mal de tête</string>
+    <string name="backpain">Mal au dos</string>
+    <string name="jointpain">Douleur articulaire</string>
+    <string name="sunburn">Sun Burn</string>
+    <string name="immunization_me">Organisation mondiale de la santé</string>
+    <string name="a">A</string>
+    <string name="b1">B1</string>
+    <string name="b2">B2</string>
+    <string name="b3">B3</string>
+    <string name="b5">B5</string>
+    <string name="b6">B6</string>
+    <string name="b7">B7</string>
+    <string name="b9">B9</string>
+    <string name="b12">B12</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="k">K</string>
+    <string name="vitamina">Vitamine A</string>
+    <string name="vita_heading">Rétinol / rétinal</string>
+    <string name="vita_mesg">La vitamine A est également appelée rétinienne.La vitamine A est un groupe de substances liposolubles présentes dans les produits d\'origine animale.Ces substances comprennent le rétinol (un alcool) et le rétinal (un aldéhyde). transcription génique.Par voie de différenciation cellulaire, les rôles physiologiques des cellules sont spécialisés.La vitamine A comprend également les caroténoïdes, produits par les plantes.Ceux-ci sont transformés en rétineFruits et les légumes contiennent par exemple du corps humain.</string>
+    <string name="vit_funcs">Les fonctions</string>
+    <string name="vita_funcs">La vitamine A est essentielle au développement des os, de la peau et de la vision.Elle renforce le système immunitaire en créant une résistance aux infections et aux maladies.Elle régule également la croissance en régulant l’expression du gène de l’hormone de souffrent de cécité nocturne (en raison d\'un apport insuffisant de rétinol), d'une peau sèche, d'une croissance médiocre et de difficultés de développement.</string>
+    <string name="vit_interact">Les interactions</string>
+    <string name="rich_foods">Aliments riches</string>
+    <string name="overdose">Surdose</string>
+    <string name="vita_interact">La carence en zinc interfère avec le métabolisme de la vitamine A en raison de la diminution de la synthèse du rétinol et de la transformation du rétinol en rétin. Lorsque la vitamine A est utilisée en association avec du fer, l’anémie est moins susceptible de se produire. La consommation chronique d’alcool entraîne l’épuisement de la vitamine A dans le foie. Cela contribue à endommager le foie induit par l\'alcool.</string>
+    <string name="note">REMARQUE</string>
+    <string name="vita_note">La vitamine A n\'est pas recommandée pour les femmes enceintes. Un excès de vitamine A peut causer des anomalies congénitales. Cependant, un apport suffisant en vitamine A reste nécessaire en raison de son rôle essentiel dans le développement embryonnaire.</string>
+    -------------------------------------------------------------------
+    <string name="vitaminb1">Vitamine B1</string>
+    <string name="vitb1_heading">Thiamine</string>
+    <string name="vitb1_mesg">La vitamine B1 est aussi appelée thiamine. Comme d’autres vitamines du complexe B, la thiamine est parfois appelée vitamine «anti-stress» car elle peut renforcer le système immunitaire et améliorer la capacité du corps à résister aux conditions stressantes. Elle s’appelle B1 car c’est la première vitamine B découverte.</string>
+    <string name="vitb1_funcs">La vitamine B1, ou thiamine, aide à prévenir les complications du système nerveux, du cerveau, des muscles, du coeur, de l\'estomac et des intestins. Il est également impliqué dans le flux d\'électrolytes entrant et sortant des cellules des muscles et des nerfs. Il aide à prévenir des maladies telles que le béribéri, qui implique des troubles du cœur, des nerfs et du système digestif. B1 est nécessaire pour les processus métaboliques clés.</string>
+    <string name="vitb1_richfoods">Il existe de nombreux moyens naturels d’ajouter des aliments riches en thiamine à tous les régimes. Les sources de thiamine incluent-elles le foie de boeuf, les noix, l’avoine, les oranges, le porc, les œufs, les légumineuses à graines, les pois et B. Les aliments sont également enrichis en thiamine. Certains aliments souvent enrichis en B1 sont le riz, les pâtes, les ours, les céréales et la farine, etc.</string>
+    <string name="vitb1_overdose">La surdose de B1 est extrêmement rare. Le surdosage de B1 provoque des maux d’estomac, une irritation de la peau, des nausées, des vertiges, un essoufflement, un gonflement des mains, du visage, de la bouche ou une menace.</string>
+    -------------------
+    <string name="vitaminb2">Vitamine B2</string>
+    <string name="vitb2_heading">Riboflavine</string>
+    <string name="vitb2_mesg">La vitamine B2 ou riboflavine est l’un des sujets discutés, probablement parce que peu de gens souffrent de son déficit. Cependant, la B2 est l’une des vitamines les plus importantes de la série du complexe B qui joue un rôle dans divers processus du corps.</string>
+    <string name="vitb2_funcs">Stimule le métabolisme \ nPréveille l\'anémie \ nIl favorise l\'intensification naturelle \ nAide la cicatrisation des plaies \ nNécessaire pour la santé des yeux \ nProtège le système nerveux</string>
+    <string name="vitb2_richfoods">La meilleure source de riboflavine comprend: la levure de bière, les amandes, les abats, les grains entiers, le germe de blé, le riz sauvage, les champignons, le soja, le lait, le yaourt, les oeufs, le brocoli, les choux de Bruxelles, les épinards</string>
+    <string name="vitb2_overdose">Robinson est généralement considéré comme sûr, même à fortes doses. La riboflavine ne semble pas causer d’effets secondaires graves. De très fortes doses peuvent provoquer: • Des douleurs abdominales, des sensations de marinage, des urines jaunes ou oranges, une sensibilité à la lumière. Prendre une des vitamines B pendant longtemps peut entraîner un déséquilibre des autres vitamines B. Pour cette raison, vous voudrez peut-être prendre une vitamine du complexe B, qui comprend les vitamines B</string>
+    ---------------------
+    <string name="vitaminb3">Vitamine B3</string>
+    <string name="vitb3_heading">Niacine</string>
+    <string name="vitb3_funcs">La niacine est une vitamine importante pour le maintien d\'un système cardiovasculaire sain et le métabolisme, en particulier pour équilibrer les niveaux de cholestérol dans le sang. En outre, la niacine contribue au fonctionnement du cerveau, à la formation d’une peau saine et à son entretien, voire à la prévention ou au traitement du diabète. La niacine aide à la mobilité articulaire et à traiter l\'arthrite, traite la pellagre, une maladie causée par un faible taux de vitamines B, prévient l\'impuissance (dysfonction érectile).</string>
+    <string name="vitb3_mesg">La vitamine B3 s\'appelle également comme la niacine. La niacine fait partie du complexe de la vitamine B, avec d’autres vitamines B, notamment la vitamine B1 (thiamine), la vitamine B2 (riboflavine), etc.</string>
+    <string name="vitb3_richfoods">Dinde \ Poitrine de poulet \ Cacahuètes \ Champignons \ nTailleur \ Thon \ nPois verts \ nBœuf nourri au gazon \ nGraines de tournesol</string>
+    <string name="vitb3_overdose">Les signes et les symptômes de surdosage de la niacine comprennent: \ nRinceur de la peau du serveur associé à des vertiges \ nRaccélération cardiaque rapide \ Démangeaisons \ nausées et vomissements \ nDouleurs abdominales \ nDiarrhée \ nGoutte</string>
+    ---------------------
+    <string name="vitaminb5">Vitamine B5</string>
+    <string name="vitb5_heading">Acide pantothénique</string>
+    <string name="vitb5_mesg">La vitamine B5, appelée aussi acide pantothénique, est l’une des 8 vitamines B. Toutes les vitamines B aident le corps à convertir les aliments (glucides) en carburant (glucose), que le corps utilise pour produire de l\'énergie. Son nom provient des mots grecs pantos, signifiant partout car il peut être trouvé dans toutes les cellules vivantes. L'acide pantothénique se présente sous la forme d'un coenzyme essentiel dans de nombreuses réactions chimiques</string>
+    <string name="vitb5_funcs">La vitamine B5 est essentielle à la fabrication des globules rouges, ainsi que des hormones liées au sexe et au stress produites dans les glandes surrénales, petites glandes situées au sommet des reins. La vitamine B5 est un composant d\'une coenzyme essentielle requise pour les réactions chimiques générant de l\'énergie à partir de nourriture (rapide, glucides et protéines).</string>
+    <string name="vitb5_richfoods">Foie de volaille Graines de tournesol Saumon (poisson) AvocatSans tomates séchées au soleil MaïsBrocoliChampignons chou-fleurYogourt</string>
+    <string name="vitb5_overdose">La vitamine B5 est une vitamine hydrosoluble, ce qui signifie qu\'un excès de vitamine peut être excrété dans l\'urine. Cependant, il n’est pas possible de prendre une surdose de vitamine B5. Un apport excessif de vitamine B5 peut provoquer diarrhée, brûlures d'estomac, nausée, déshydratation, œdème, douleurs articulaires, calcification des vaisseaux sanguins et dépression.</string>
+    ------------------------
+    <string name="vitaminb6">Vitamine B6</string>
+    <string name="vitb6_heading">Pyridoxine</string>
+    <string name="vitb6_mesg">La vitamine B6, également appelée pyridoxine, est l’une des 8 vitamines B. La vitamine B6 est une vitamine hydrosoluble. Il existe trois différentes formes naturelles de vitamine B6, à savoir la pyridoxine, la pyridoxamine et le pyridoxal, qui sont toutes normalement présentes dans les aliments. Pour le métabolisme humain, le dérivé actif de la vitamine, le pyridoxal 5-phosphate (PLP), est d’une importance capitale et ajoute la forme de coenzyme métaboliquement active</string>
+    <string name="vitb6_funcs">Faire des antibiotiques. Des antibiotiques sont nécessaires pour lutter contre de nombreuses maladies. Maintenir le système nerveux normal Fabriquer l’hémoglobine. L\'hémoglobine achemine l\'oxygène des globules rouges vers les tissus. Une carence en vitamine B6 peut entraîner une forme d’efficacité. Briser les protéines. Le plus de protéines que vous mangez. Plus vous avez besoin de vitamine B6. \ NGarde votre glycémie (taux de glucose) dans les valeurs normales.</string>
+    <string name="vitb6_richfoods">Thon sauvage pêchéBanana SaumonBoeuf nourri au poulet Poitrines de poulet Épinards (cuits) Pommes de terre douces Noisettes noisettes Tukkés à l\'orange etc.,</string>
+    <string name="vitb6_overdose">Le surdosage en vitamine B6 peut causer: \ nDifficulté à coordonner les mouvements \ nNourdissement \ nL\'insuffisance en vitamine B6 peut causer: \ nConfusion \ nDépression \ nIritabilité \ n Les plaies dans la bouche et la langue (une carence en vitamine B6 n'est pas courante aux États-Unis).</string>
+    ------------------------
+    <string name="vitaminb7">Vitamine B7</string>
+    <string name="vitb7_heading">Biotine</string>
+    <string name="vitb7_mesg">La vitamine B7, plus connue sous le nom de biotine, est un nutriment hydrosoluble faisant partie de la famille des vitamines B. La vitamine B aide à soutenir la fonction surrénalienne, aide à calmer et à maintenir un système nerveux en bonne santé et est nécessaire aux processus métaboliques essentiels. La biotine est essentielle pour le métabolisme des glucides et des graisses.</string>
+    <string name="vitb7_funcs">La biotine a des fonctions métaboliques vitales. Sans la biotine en tant que cofacteur, de nombreuses enzymes ne fonctionnent pas correctement et des complications graves peuvent survenir, notamment des maladies diverses de la peau, du tractus intestinal et du système nerveux. La biotine peut aider à réduire l’hyperglycémie chez les personnes atteintes de diabète de type 2 et peut aider à maintenir des cheveux et des ongles en santé, à diminuer la résistance à l’insuline et à améliorer la tolérance au glucose, le cancer, la maladie de Crohn, la perte de cheveux et la maladie de Parkinson , neuropathie périphérique, syndrome de Rett, dermatite séborrhéique et candidose vaginale.</string>
+    <string name="vitb7_richfoods">Tomates, amandes, œufs, oignons, carottes, laitue romaine, chou-fleur, foies de viande, boeuf, poulet et poissons comme le saumon, les sardines, l\'aiglefin et le thon</string>
+    <string name="vitb7_overdose">La vitamine B7 est une vitamine hydrosoluble, ce qui signifie que l\'excès peut être excrété dans l\'urine et les fèces. Les symptômes de surdosage en vitamine B7 comprennent une envie accrue d\'uriner, une transpiration anormale Fréquence; et la croissance rapide des cheveux et des ongles.Une affection appelée épanchement pleuropéricardique à éosinophiles peut survenir si un excès de vitamine B7 est ingéré avec</string>
+    ---------------------------
+    <string name="vitaminb9">Vitamine B9</string>
+    <string name="vitb9_heading">Acide folique</string>
+    <string name="vitb9_mesg">La vitamine B9, aussi appelée acide folique, sert de coenzymes lors de la création de l\'ADN. Cette vitamine est également très importante pour la croissance et la reproduction de toutes les cellules du corps, y compris les globules rouges. La vitamine B9 fonctionne avec les vitamines B6 et B12 et d\'autres nutriments pour contrôler les concentrations sanguines de l\'homocystéine, un acide aminé.</string>
+    <string name="vitb9_funcs">La formation est des globules rouges. Création de matériel génétique. Favorise une grossesse saine en régulant le développement du système nerveux du fœtus. Aide à traiter les patients anémiques résultant d\'une carence en acide folique. Fonctions pour métaboliser les protéines. La dysplasie cervicale peut être réduite.</string>
+    <string name="vitb9_richfoods">Épinards \ Verts au col \ Verts au tournesol \ nPapaya \ nLentilles \ nHaricots PurePha \ Haricots HarbanBar \ nHaricots noirs \ nHarbacanes nains \ Haricots féveroles \ nHarves Lima \ nAvocado etc.</string>
+    <string name="vitb9_overdose">A fortes doses, peuvent survenir: perte d’appétit, nausée, flatulence Distension de l\'abdomen. Peut produire des cristaux d'acide folique dans les reins.</string>
+    --------------------------
+    <string name="vitaminb12">Vitamine B12</string>
+    <string name="vitb12_heading">Cyanocobalamine</string>
+    <string name="vitb12_mesg">La vitamine B12 est aussi appelée cyanocobalamine. La méthylcobalamine et la 5-désoxyadénosylcobalamine sont les formes de la vitamine B12 qui sont actives dans le métabolisme humain.</string>
+    <string name="vitb12_funcs">La vitamine B12 est nécessaire à la formation des globules rouges et à la synthèse de l\'ADN. La vitamine B12 est également nécessaire à la construction des protéines dans le corps et au fonctionnement normal des tissus nerveux.</string>
+    <string name="vitb12_richfoods">Foie de boeuf \ nSardines \ nBoeuf \ thon \ nFromage \ n \ u0026 # 39; fromage cottage \ nAgneau \ n Lait cru \ nœufs \ nSalmon etc.,</string>
+    <string name="vitb12_overdose">Engourdissement, dysfonctionnement cardiaque, vertiges et maux de tête réguliers. L’effet indésirable le plus grave, limité à l’utilisation abusive de la vitamine en heures supplémentaires, augmente le risque de cancer. Si vous souffrez d\'anémie pernicieuse, une overdose de cette vitamine peut provoquer la leucémie. Si vous consommez une alimentation riche en cholestérol et différentes protéines animales, vous courez un risque très élevé de développer un cancer de l\'œsophage et de l\'estomac.</string>
+    ------------------------------
+    <string name="vitaminc">Vitamine C</string>
+    <string name="vitc_heading">Acide ascorbique</string>
+    <string name="vitc_mesg">La vitamine C, également appelée acide ascorbique, est une vitamine hydrosoluble. C\'est essentiel pour le fonctionnement normal du corps. La plupart des humains consomment de la vitamine C dans leur régime alimentaire. D'autres mammifères ont la possibilité de produire leurs propres applications de vitamine C.</string>
+    <string name="vitc_funcs">La vitamine C est nécessaire à la croissance et à la réparation des tissus dans toutes les parties de votre corps. Il aide le corps à fabriquer du collagène, des tendons, des ligaments et des vaisseaux sanguins. La vitamine C est nécessaire pour guérir les plaies, ainsi que pour réparer et entretenir les os et les dents. Il aide également le corps à absorber le fer provenant de sources autres que les gènes.</string>
+    <string name="vitc_richfoods">Oranges Piments rouges Kale 1 tasse Pommes de Bruxelles cuites Brocolis demi-cuites Brocoli cuites Fraises Fruits de raisin Fruits Guava Kiwis Kiwi Poivrons verts Mangue Lemon</string>
+    <string name="vitc_overdose">Un surdosage en vitamine C entraîne: \ nDiarrhée \ nausée \ nVomissements \ ncbrûlures au cœur \ nConduite nautique et crampes abdominales \ nChapelle \ nInsomnie \ nCaillons</string>
+    ----------------------------
+    <string name="vitamind">Vitamine D</string>
+    <string name="vitd_heading">Cholécalciférol</string>
+    <string name="vitd_mesg">La vitamine D est une vitamine liposoluble, souvent appelée "vitamine soleil". La vitamine D est importante pour la santé en général et la solidité et la santé des os. C’est également un fait important pour le bon fonctionnement de vos muscles, de votre cœur, de vos poumons et de votre cerveau et pour que votre corps puisse combattre les infections. Votre corps peut fabriquer sa propre vitamine D à partir du soleil. Vous pouvez également obtenir de la vitamine D à partir de suppléments et une très petite quantité provient de quelques aliments que vous mangez.</string>
+    <string name="vitd_funcs">La vitamine D est produite lorsque votre peau est exposée au soleil. La quantité de vitamine D produite par votre peau dépend de facteurs tels que la saison (c’est-à-dire qu’il ya généralement moins de soleil en hiver), l’heure de la journée (les rayons du soleil sont les plus puissants entre 10 h ou 3 h. pm), la quantité de poussière couverte et la pollution de l’air, et votre lieu de résidence (les villes proches de l’équateur ont des niveaux UV plus élevés). La lumière UV (ultraviolette) au soleil fait que votre peau fabrique de la vitamine D.</string>
+    <string name="vitd_richfoods">La lumière du soleil favorise la synthèse de la vitamine D à partir du cholestérol présent dans la peau.</string>
+    ------------------------
+    <string name="vitamine">Vitamine E</string>
+    <string name="vite_heading">Tocopherols / Tocotriénols</string>
+    <string name="vite_mesg">La vitamine E est également appelée Tocopherols. Tocotriénols Le terme "vitamine E" décrit huit composés différents. Les alpha-tocophérols sont les plus actifs chez l\'homme. La vitamine E est un antioxydant. Cela peut aider à protéger vos cellules contre les dommages.</string>
+    <string name="vite_funcs">La vitamine E est utilisée comme traitement pour diverses maladies dégénératives. Y compris le durcissement des artères, l\'hypertension artérielle, la pression artérielle, les maladies cardiaques, le cancer. Il équilibre également le cholestérol, combat les radicaux libres et empêche le développement de maladies, répare les peaux abîmées, épaissit les cheveux, équilibre les hormones, aide à soulager les symptômes du SPM, améliore la vision, aide les personnes atteintes de la maladie d’Alzheimer, améliore les effets du traitement médical, améliore l’endurance physique et le muscle forces</string>
+    <string name="vite_richfoods">Graines de tournesol Amandes Noisettes Nain Wheat Germa Mango Avocado Courge NoisetteBrocolis Epinards KiwiTomate</string>
+    <string name="vite_overdose">Les surdoses de la vitamine E sont rares. Il est pratiquement impossible de faire une overdose par le seul régime alimentaire. Si vous prenez plus que l\'apport maximal tolérable pour votre âge, vous risquez une vision floue, une faiblesse, des vertiges, des nausées et une diarrhée. Si vous prenez également un médicament anticoagulant, tel que la warfarine, des saignements peuvent en résulter</string>
+    -----------------------------
+    <string name="vitamink">Vitamine K</string>
+    <string name="vitk_heading">Phylloquinone</string>
+    <string name="vitk_mesg">Le K dans la vitamine K est dérivé du mot allemand koagulation. La vitamine K est une vitamine liposoluble qui joue un rôle essentiel dans la coagulation du sang. Il existe plusieurs formes de vitamine K, l\'une synthétisée par les plantes, l'autre synthétisée (y compris l'homme) et une large gamme de types synthétisés par des bactéries dans la petite intensité humaine.</string>
+    <string name="vitk_funcs">La vitamine K fournit le coenzyme requis pour une carboxylation d\'acides aminés dépendante de la vitamine K. C\'est essentiel pour la fourniture de protéines qui jouent un rôle dans la coagulation du sang. Par conséquent, il est clair que la carence provoque des troubles hémorragiques tels que des hémorragies (saignements incontrôlés). Cela peut provoquer des saignements de nez, du sang dans les urines ou des saignements menstruels extrêmement abondants. Chez les nourrissons, une carence en vitamine K peut même entraîner une hémorragie interne du crâne. Une carence en vitamine K est assez rare chez les adultes en bonne santé, car les bactéries de l\'intestin synthétisent la vitamine. Elle peut toutefois survenir chez les personnes prenant des antagonistes de la vitamine K à des fins médicinales.</string>
+    <string name="vitk_richfoods">Légumes à feuilles vertes \ Natto \ n Oignons de printemps \ Choux de Bruxelles \ Chou \ nBrocolis \ nProduits laitiers (fermentés) \ nPrunions \ nSucrés \ Brésiliens séchés etc.,</string>
+    <string name="vitk_overdose">La toxicité de la vitamine K est généralement observée chez les nourrissons nourris au lait maternisé ou ceux recevant des injections synthétiques de vitamine K-3 (menadione). En raison de sa toxicité, la ménadione n’est plus utilisée pour le traitement de la carence en vitamine K. La jaunisse chez le nouveau-né, l’anémie hémolytique et l’hyperbilirubinémie sont parmi les effets de la toxicité de la vitamine K. La toxicité bloque également les effets des anticoagulants oraux.</string>
+    --------------------------------
+    <string name="diet1head">PLAN RÉGIME 7 JOURS</string>
+    <string name="diet1sub">Perdre 3-5 Kgs en une semaine</string>
+    <string name="diet1sub1">PLAN DE RÉGIME DE 7 JOURS POUR PERDRE DU POIDS</string>
+    <string name="diet1sub2">Quoi? Seulement 7 jours et nous perdons la graisse non désirée de notre corps ... N\'est-ce pas génial. Oui, avec ce plan de régime, on est capable de perdre 5 à 10 kilos et de s’aider à atteindre son poids souhaitable et la forme de son corps. Ce régime est également connu sous le nom de régime GM-Diet, conçu pour que les ouvriers moteurs restent en forme et en bonne santé. Ce plan de régime prend juste peu de votre dévouement et vous donne votre objectif souhaitable. Alors, êtes-vous tous prêts à changer de look?</string>
+    <string name="diet1sub3">Avantages du plan de diète GM:</string>
+    <string name="diet1sub4">Ce régime végétarien de 7 jours a été élaboré pour le bien-être des employés de General Motors Inc. C\'est la raison pour laquelle on l\'appelle le régime GM. L\'objectif du programme est de gagner un corps en bonne santé. Vous pouvez vous attendre aux choses suivantes en pratiquant ce régime de régime: \ n \ n1. Perdez environ 5 à 8 kilogrammes en 7 jours Lueur naturelle sur la peau. \ N2. L'élimination des toxines vous fera vous sentir léger et énergique. \ N3. Réduit la graisse autour du ventre et de la taille. \ N \ nTous ceux-ci en seulement 7 jours! C’est un régime miracle! \ N \ n [NOTE: Boire beaucoup d’eau pendant votre régime 8-10 verres d’eau.]</string>
+    <string name="diet1day1">##Jour un##</string>
+    <string name="diet1day1sub">Commençons par le premier jour. Le premier jour de votre régime, vous ne devez consommer que des fruits pour la journée, car il s’agit d’une journée consacrée aux fruits. Les fruits sont excellents pour la santé et comportent de nombreux avantages. Les fruits aident non seulement à perdre du poids, mais également à vous procurer une peau éclatante et parfaite ainsi que de nombreux nutriments nécessaires à votre corps. Vous êtes autorisé à consommer n\'importe quel fruit de votre choix pour la journée et en n'importe quel nombre (sauf la banane). Mais souvenez-vous de diviser vos prises en différents nombres pour la journée. Manger en petite quantité mais plus souvent. Je suggère de consommer des melons pour la journée, car cela vous aidera à perdre 1 kilo de votre poids dès le premier jour (par exemple, NON aux bananes).</string>
+    <string name="diet1day2">##Jour deux##</string>
+    <string name="diet1day2sub">Comme le premier jour, le deuxième jour est le "Jour des légumes". Vous ne pouvez manger que des légumes et seulement des légumes. Vous pouvez manger à votre guise, sentir votre estomac rempli de légumes si vous en avez besoin. Les légumes bouillis ou crus feront l\'affaire. Vous pouvez même commencer votre journée avec une pomme de terre bouillie et une cuillère à thé de beurre. Ceci est fait afin de donner au corps assez d\'énergie et de glucides pour la journée. Mais après cela, il ne reste que des légumes crus et bouillis. Une seule pomme de terre par jour suffit, ne consommez pas plus que cela. Ajouter une pincée d'assaisonnement d'origan ou de basilic pour rendre les légumes plus comestibles est parfait. Le jour 2 est une journée sans calories avec une bonne quantité de fibres et de nutriments. Si vous passez à travers le deuxième jour, vous êtes définitivement dédié!</string>
+    <string name="diet1day3">##Jour trois##</string>
+    <string name="diet1day3sub">Le jour 3 est une combinaison des jours 1 et 2. Vous pouvez manger les fruits et les légumes mentionnés. Mangez n\'importe quelle quantité et toute quantité que vous aimez et buvez beaucoup d\'eau comme indiqué. Vous devez éviter les pommes de terre le troisième jour, car les fruits fournissent suffisamment de glucides. Votre système est prêt à brûler les kilos superflus. Vos envies peuvent essayer de dominer, mais pensez à la perte de poids et aux excellents résultats. Vous vous sentirez léger et heureux à ce moment-là.</string>
+    <string name="diet1day4">##Jour quatre##</string>
+    <string name="diet1day4sub">Rappelez-vous comment on vous a dit de ne pas manger de bananes les trois premiers jours? Bien au 4ème jour du régime végétarien pour perdre du poids, vous avez la liberté de manger jusqu\'à 6 bananes pour toute la journée. Vous pouvez boire jusqu\'à 4 verres de lait. Vous devez avoir entendu dire que les bananes aident à la prise de poids, mais dans ce régime, elles agissent comme source de potassium et de sodium pour le corps. Puisque la consommation de sel est réduite, les bananes feront le travail. Vous pouvez également avoir une tasse d\'une soupe très diluée pour un repas. La soupe devrait comprendre du poivron, des oignons, de l'ail et des tomates. C'est une recette savoureuse et saine qui aidera au processus de perte de poids. Vous pouvez le boire seulement 1 fois par jour, c'est seulement pour rafraîchir vos papilles de la consommation de légumes et de fruits. Veillez à vous résister. Vous n'êtes qu'à 3 jours de la silhouette de vos rêves.</string>
+    <string name="diet1day5">## cinquième jour ##</string>
+    <string name="diet1day5sub">Le cinquième jour est un régal pour vous, car ce jour-là, vous pouvez consommer tous les repas délicieux mais très sains comme les tomates, les choux et le fromage cottage, également connu sous le nom de Paneer en Inde. Vous pouvez également ajouter des morceaux de soja à votre repas. Préparez une bonne soupe avec les ingrédients mentionnés et buvez-la. Assurez-vous d\'augmenter votre consommation d'eau le jour 5. Vous pouvez manger jusqu'à 6 tomates et augmenter la consommation d'eau avec 1/4 de la consommation quotidienne. Ceci est fait afin de nettoyer votre corps de l'acide urique. Les tomates sont pour la fibre et le processus de digestion. L'eau purifiera votre corps de toutes sortes de toxines.</string>
+    <string name="diet1day6">## Sixième jour ##</string>
+    <string name="diet1day6sub">Le jour 6 est un peu différent du jour 5. Vous mangerez des choux, du fromage cottage et d\'autres légumes, mais en excluant les tomates. Pas de tomates au jour 6, évitez-les. La soupe savoureuse et beaucoup d\'eau devrait vous aider tout au long de la journée. Les légumes apporteront des vitamines et des fibres à votre corps. Vous remarquerez déjà un changement dans votre corps à ce moment-là. Continuez à consommer une bonne quantité d'eau chaque jour.</string>
+    <string name="diet1day7">## Jour sept ##</string>
+    <string name="diet1day7sub">Le dernier jour de votre régime. Vous vous sentirez léger sur vos orteils et heureux à l’intérieur. Vous pouvez avoir du jus de fruit frais, une tasse de riz brun ou une moitié de chapati / pain et autres légumes que vous voudriez manger. Vous pouvez terminer votre journée avec la consommation d’eau. C’est le régime complet pour 7 jours. Si vous pouvez le suivre strictement, personne ne peut vous empêcher de gagner un corps en bonne santé et plus mince.</string>
+    ---------------------------------------------
+    <string name="diet2sub1">Plan de régime 2</string>
+    <string name="diet2sub2">"Ohh cette robe elle est si jolie, j'aimerais pouvoir en avoir une." Est-ce que cela vous arrive lorsque vous sortez pour faire du shopping? Vous voulez acheter cette robe mais vous savez que c\'est trop petit pour vous. C’est bien, voici un plan de régime pour vous aider à atteindre une taille parfaite en quelques mois à peine. Il n’y aura plus de telle robe ni votre vêtement préféré que vous voudriez avoir mais vous ne pouviez tout simplement pas.</string>
+    <string name="diet2sub3">Ce régime est très simple et vous aide à perdre ces kilos en trop. Alors commençons ... voici comment commencer votre journée de perte de poids.</string>
+    <string name="diet2breakfast">PETIT DÉJEUNER-</string>
+    <string name="diet2breakfastsub">Avant de manger quelque chose, buvez un verre d’eau citronnée tiède de Luke (composée de 1 ou 1/2 citron) à jeun, de manière à détoxifier votre corps et après environ une demi-heure, vous pourrez manger les fruits de votre choix, mais n\'oubliez pas de garder le quantité petite. Les fruits vous aideront à remplir votre estomac et à vous fournir l'énergie dont vous avez besoin. Vous pouvez également manger de l'avoine ou grignoter des fruits secs pour le petit-déjeuner.</string>
+    <string name="diet2lunch">LE DÉJEUNER-</string>
+    <string name="diet2lunchsub">(Moitié ou un) chapati / pain ou riz brun (une tasse), yogourt faible en gras et un fruit (comme pomme, orange). Ne pas oublier de boire un verre d\'eau avant de déjeuner.</string>
+    <string name="diet2dinner">DÎNER-</string>
+    <string name="diet2dinnersub">Vous pouvez boire de la soupe ou manger un demi-chapati / pain avec des légumes soit bouillis soit cuits dans moins d’huile, et vous aurez une salade sans huile ni autre vinaigrette.</string>
+    <string name="diet2sub4">C’est la simplicité avec laquelle votre régime alimentaire vous fait perdre ces kilos et vous n’aurez même pas besoin de mourir de faim comme vous le faites parfois tout en suivant les autres plans de régime strict. Suivre ce régime vous aidera à atteindre votre objectif. Qui sait, vous pourrez choisir la solution idéale pour vous-même, bien plus jolie que les robes que vous aimiez auparavant.</string>
+    --------------------------------------
+    <string name="diet3sub1">Régime de nettoyage simple</string>
+    <string name="diet3sub2">[Buvez beaucoup d\'eau pendant votre régime]</string>
+    <string name="diet3day1">Jour 1</string>
+    <string name="diet3day1sub">Petit-déjeuner - Flocons d’avoine, 1 pomme. \ N \ nSnack- thé vert avec 1/2 citron et gingembre. \ N \ nSoupe à la tomate et une tasse de fruits frais de votre choix. \ N \ nSauce- légumes crus tels que le concombre, carottes. \ n \ nDîner - une tasse de riz brun ou de chapati / pain, épinards, jus de citron.</string>
+    <string name="diet3day2">Jour 2</string>
+    <string name="diet3day2sub">Petit-déjeuner: fruits frais, poignée de fruits secs. Snack: thé vert au citron et au gingembre. Soupe au petit-déjeuner, une ou deux tranches de pain brun et 1 agrume. \ n \ nLe légume cuit à la vapeur (brocoli, chou-fleur, carottes, etc.).</string>
+    <string name="diet3day3">Jour 3</string>
+    <string name="diet3day3sub">Petit-déjeuner - un verre de lait, fruits secs. \ N \ nSnack- thé vert. \ N \ n \ nDéjeuner- une chapati / pain, choux et soupe à la tomate. \ N \ n \ n \ n \ n \ n \ n \ n pastèque ou tout autre fruit. \ N \ nDîner fromage cottage, chapati / pain, salade.</string>
+    -------------------------------
+    <string name="diet4sub1">Plan de régime 4</string>
+    <string name="diet4sub2">Les concombres font des salades savoureuses et nourrissantes qui vous permettront de rester actif toute la journée. Mélangez 2 lb de concombres avec une pincée de sel, une cuillère à thé d\'herbes telles que l\'origan, le persil et l\'aneth, et de l\'huile d\'olive pour obtenir une délicieuse salade dans votre régime alimentaire. minéraux qui fournissent une nourriture essentielle au corps. Il fonctionne comme un fantastique produit naturel de soin de la peau, qui peut instantanément illuminer votre peau et vos yeux. Voici une idée pour un régime alimentaire standard concombre.</string>
+    <string name="diet4sub3">Le régime de concombre</string>
+    <string name="diet4sub4">Pour le petit-déjeuner: 1 bol de salade de concombre, 1 tasse de thé et un toast de pain de blé. \ N \ nPour le déjeuner: chapati / pain, un bol de salade de concombre. \ N \ nPour le dîner: une seule salade.</string>
+    ---------------------------------
+    <string name="cardio">Cardio</string>
+    <string name="walking">En marchant</string>
+    <string name="walking1">La marche est un exercice idéal pour perdre du poids: elle ne nécessite aucun équipement, à part une paire de chaussures de marche décentes, et vous n’avez pas besoin d’un abonnement à un gymnase pour le faire. En fonction de votre poids, marcher à un rythme de quatre milles à l\'heure brûlera entre 5 et 8 calories par minute, ou entre 225 et 360 calories pour une marche de 45 minutes.</string>
+    <string name="swimming">Nager</string>
+    <string name="swimming1">Une natation vigoureuse peut brûler de 400 à 700 calories par heure. Tous les types de natation sont efficaces pour vous aider à perdre du poids, du crawl à la brasse ou même à la pagaie. La natation est un exercice très efficace pour la perte de poids et la tonification. C’est l’un des exercices à plus faible impact, il renforce, tonifie et conditionne tout votre corps.</string>
+    <string name="cycling">Cyclisme</string>
+    <string name="cycling1">La bicyclette est une autre activité à faible impact et riche en bénéfices pour perdre du poids. Le vélo peut brûler de 372 à plus de 1 100 calories par heure, en fonction de votre poids, de votre vitesse et du terrain sur lequel vous faites du vélo. pouvez monter à bicyclette et parcourir plusieurs kilomètres sans avoir l’impression qu’ils viennent de traverser l’essoreuse. Le cyclisme en plein air est préférable, car le terrain varié vous permet d’obtenir une séance d’entraînement bien équilibrée comprenant le renforcement de la partie inférieure du corps et une bonne séance d’entraînement cardiovasculaire.</string>
+    <string name="running">Fonctionnement</string>
+    <string name="running1">Si vous êtes une des nombreuses personnes qui aiment courir, vous avez de la chance. Courir brûle environ 600 calories par heure, aide à renforcer les os et le tissu conjonctif et stimule le rythme cardiaque, contribuant ainsi à prévenir les maladies du cœur, les accidents cérébrovasculaires et certains cancers. Si vous gardez le rythme et la motivation, utilisez un iPod avec vos chansons préférées. Un entraînement par intervalles peut faire grimper les calories que vous brûlez lors de votre course quotidienne. Également appelé travail rapide, l\'entraînement par intervalles implique de courtes poussées, généralement entre 30 secondes et deux minutes, de course à toute vitesse. Les intervalles brûlent un grand nombre de calories en peu de temps, améliorent votre métabolisme au repos pour vous aider à brûler plus de calories pendant la journée et augmentent votre masse musculaire.</string>
+    <string name="jumpingrope">Corde à sauter</string>
+    <string name="jumpingrope1">Dix minutes de saut à la corde valent huit kilomètres en ce qui concerne les avantages cardio-vasculaires et la combustion de calories. Une heure de corde à sauter brûle plus de 800 calories et fait travailler les bras, les jambes et le tronc, tout en renforçant les os et les articulations. Un bon entraînement de saut à la corde de 13 minutes implique une minute d\'activité intense suivie d\'une minute de repos. Commencez par le saut de base, au cours duquel les deux pieds poussent et atterrissent en même temps. Ensuite, alternez les pieds. Suivez-le avec un saut combiné durant lequel vous faites le saut de base pendant dix tours de la corde, puis en alternant vos pieds pendant dix tours.Finalement, effectuez la marche haute: alternez vos pieds, mais amenez vos genoux à un angle de 90 degrés à chaque saut. Terminez l'entraînement avec une ronde d'endurance au cours de laquelle vous sautez à la corde de votre façon préférée pendant au moins cinq minutes.</string>
+    -------------------------------------
+    <string name="strength_training">L\'entraînement en force</string>
+    <string name="push_up">Faire monter</string>
+    <string name="push_up1">Le push-up est un exercice de base qui consiste simplement à lever et à baisser le corps avec l\'appui des bras. Les triceps se font en plaçant vos mains sur le sol, juste en dessous de vos épaules, tout en maintenant votre corps bien droit. Maintenant, baissez votre poitrine en pliant les coudes et en poussant dans la position initiale. Si vous estimez que cet exercice est difficile, vous pouvez le faciliter en plaçant vos genoux sur le sol. Cet exercice entraîne les muscles de la poitrine, des épaules et des bras.</string>
+    <string name="bridge">Pont</string>
+    <string name="bridge1">Les exercices de bridge renforcent généralement toute la région abdominale, les ischio-jambiers, le bas du dos et les fessiers. Il est considéré comme l\'exercice de rééducation de base qui améliore la stabilisation de la colonne vertébrale. Allongez-vous sur le dos en mettant vos bras à vos côtés. Maintenant, pliez vos genoux et soulevez vos hanches tout en maintenant votre dos bien droit et en gardant vos pieds sur le sol. Laissez les hanches alignées avec vos épaules et vos genoux. Maintenez-la pendant 30 secondes, puis abaissez doucement vos hanches pour revenir à la position initiale, puis répétez l\'opération pendant plusieurs minutes.</string>
+    <string name="squats">Squats</string>
+    <string name="squats1">Les squats sont vraiment de bons exercices pour les fesses et les jambes. Tenez-vous droit avec vos pieds d\'environ une largeur d\'épaule. Repoussez vos hanches en pliant lentement vos genoux à un angle de 90 degrés. Gardez le dos droit et les yeux tournés vers l’avenir. Lentement monter à la position de départ. Inspirez en descendant, expirez en sauvegarde. Si vous trouvez cet exercice difficile, essayez de vous asseoir sur une chaise et de vous lever, répétez ce processus plusieurs fois pour tonifier votre corps et lui apporter un bénéfice.</string>
+    <string name="walking_lunges">Marche fentes</string>
+    <string name="walking_lunges1">Les marches sont des exercices de très haute intensité qui aident à renforcer les cuisses et les hanches. Tenez-vous droit avec vos pieds à la largeur des épaules. Maintenant, avancez avec votre pied gauche puis pliez sur votre genou gauche puis sur l\'avant-pied. Assurez-vous de garder vos genoux à 90 degrés environ. Tenez-vous sur la jambe avant à l'aide de la jambe arrière. Modifiez la jambe et répétez-la. Cet exercice peut être fait en tenant une paire d'haltères dans les deux mains.</string>
+    <string name="superman">SuperMan Back Extension</string>
+    <string name="superman1">Cet exercice vous aidera à augmenter la force des muscles du bas du dos et du fessier. Pour effectuer cet exercice, allongez-vous sur le ventre et soulevez doucement les jambes et le haut du corps en même temps. Gardez toujours la tête droite dans cette position. Tenez-le pendant 2 à 3 secondes et répétez-le 10 à 12 fois par jour pour augmenter la puissance de vos jambes.</string>
+    ------------------------------------
+    <string name="yoga">Yoga</string>
+    <string name="suryanamaskar">SuryaNamaskar Pose</string>
+    <string name="suryanamaskar1">Étape 1: En position debout, joignez les paumes des mains, les pouces à 90 degrés des doigts, appuyés contre le sternum. Expirez et, tout en inspirant, allongez les bras, regardez en l\'air et penchez-vous doucement en arrière. Etape 2: Expirez, penchez-vous des hanches vers l\'avant, essayez de placer les paumes sur le sol et dirigez-vous vers les genoux ou le tibia. . \ n \ nEtape 3: Inspirez, remettez la jambe gauche en position de demi-cobra, en maintenant le pied droit et en posant le genou gauche sur le sol. Poussez les hanches vers le sol et pliez le cou en arrière. Poussez la poitrine en avant, ouvrez la poitrine et tirez les épaules en arrière. Étape 4: essayez de rapprocher le mollet et la cuisse de la jambe droite. Retenez votre souffle, ramenez la jambe droite en arrière, en joignant les pieds, en gardant les bras, les jambes et le dos bien droits dans Plank Pose. Vos pieds doivent rester debout. Etape 5: Tout en expirant, ramenez d’abord les genoux au sol, puis la poitrine et enfin le front, en position Ashtanga, en maintenant les hanches et l’abdomen au sol. Etape 6 : Lorsque vous inspirez, entrez dans la position Cobra, allongez les bras, gardez les orteils droits et les jambes jointes, les genoux et les hanches au sol. Poussez la poitrine vers l\'avant et tirez les épaules vers l'arrière, en regardant vers le haut. \ N \ nEtape 7: expirez, soulevez les hanches vers le bas pour le chien. Gardez les bras et les jambes tendus. Ramenez le menton vers la poitrine, poussez le corps en arrière et essayez de baisser les talons au sol. Appuyez sur le front vers le sol. \ N \ nEtape 8: inspirez et placez la jambe droite vers l’avant entre les mains qui reviennent dans la position du demi cobra. \ N \ nEtape 9: pendant que vous expirez, amenez la jambe gauche vers l’avant dans le coude. \ n \ nEtape 10: inspirez, redressez le corps et revenez debout avec les paumes des mains jointes devant la poitrine.</string>
+    <string name="bhekasana">Pose Bhekasana</string>
+    <string name="bhekasana1">Allongez-vous sur le ventre et attrapez vos pieds comme pour la posture de l\'arc. Maintenant, par inhalation, soulevez votre poitrine et serrez les épaules les unes contre les autres. Pliez vos pieds vers la région des hanches et laissez vos mains tenir les orteils. Tenez cette pose pendant 5 respirations puis relâchez progressivement.</string>
+    <string name="dhanurasana">Pose Dhanurasana</string>
+    <string name="dhanurasana1">Ceci est également connu comme pose de l\'arc. Tout ce que vous avez à faire ici est de vous allonger sur le sol, votre ventre touchant le sol. Gardez vos mains à côté de votre poitrine. Maintenant, prenez une profonde respiration et soulevez vos jambes Et amp; les cuisses. Dans le même temps, vous devez essayer d\'attraper vos jambes avec vos mains. Restez dans cette position pendant 30 secondes Et amp; Libération.</string>
+    <string name="shalabhasana">Pose Shalabhasana</string>
+    <string name="shalabhasana1">Allongez-vous sur le ventre, les mains au-dessous des cuisses, le front et le menton au sol. Maintenant, essayez de soulever votre jambe gauche jusqu\'à 10 pouces. Gardez la jambe droite. Ne pliez pas les genoux. Après cela, essayez de faire de même avec votre jambe droite. Au stade final, faites ceci avec vos deux jambes.</string>
+    <string name="chakki">Pose Chakki Chalanasana</string>
+    <string name="chakki1">C\'est encore un exercice très efficace Et amp; asana pour réduire la graisse du ventre. Pour cela, vous devez vous asseoir dans une position confortable. écartez vos jambes devant vous.Les deux jambes doivent se toucher. Ne pliez pas les genoux. Après cela, rejoignez vos mains Et amp; déplacez-le en mouvement circulaire sur vos jambes. Cela donne un bon massage Et amp; étirez-vous vers le ventre, les mains Et amp; jambes. Faites-le 10 fois dans le sens des aiguilles d\'une montre Et amp; 10 fois dans le sens anti-horaire. Relâchez lentement.</string>
+    -------------------------------------------
+    <string name="routinemakersub1">Voici comment faire votre propre routine d\'entraînement</string>
+    <string name="routinemakersub2">Les informations suivantes vous aideront à le faire.</string>
+    <string name="routinemakersub3">Quads - squats, fentes, squats sur une jambe, sauts en boîte. Relevés pour coups de poignard et de jarret - hanches, soulevés de terre, levées de jambe droites, élévations. \ N \ nPousser (la poitrine, les épaules et les triceps) - presse au plafond, presse au banc , inclinez la presse d\'haltères, push ups, dips. \ n \ n Pull (dos, biceps et avant-bras) - tractions à la barre, tractions, lignes de poids inverses, rangées d\'haltères. \ n \ nCore (abdominaux et bas du dos) - planches, planches latérales, crunchs avec ballon d’exercice, alpinistes, sauts aux genoux sauteurs, soulève les jambes pendantes.</string>
+    <string name="routinemakersub4">Choisissez un exercice dans chaque catégorie ci-dessus pour un entraînement, et vous travaillerez presque tous les muscles de votre corps. Ce ne sont là que quelques exemples de ce que vous pouvez faire, mais vous n’avez vraiment pas besoin de rendre les choses plus compliquées que cela. Faites 4-5 séries d\'exercices par jour avec 5 à 10 représentants. Vous pouvez également sélectionner d’autres exercices dans la "Liste des exercices".</string>
+    <string name="routinemakersub5">Ajoutez de la variété - Si vous faites la même routine, trois jours par semaine, pendant des mois et des mois, vous et vos muscles allez vous ennuyer. Choisissez un exercice différent à chaque fois et vos muscles resteront excités (et vous aussi).</string>
+    <string name="routinemakersub6">Donnez à vos muscles de 48 à 72 heures pour récupérer entre les séances d’entraînement. Une séance d\'entraînement du lundi, mercredi et vendredi fonctionne bien pour vous permettre de récupérer.</string>
+    ---------------------------------------------
+    <string name="mon">Lundi:</string>
+    <string name="mon1">Exercice cardio pendant 30 à 45 minutes. Cela peut être quelque chose comme courir, faire du jogging, marcher, danser, etc. Faites-le deux fois par jour, par exemple matin et soir. Vous pouvez faire du jogging / courir / marcher pendant la matinée et danser sur votre rythme préféré le soir ou faire un autre exercice comme sauter avec un squat, sauter, etc.</string>
+    <string name="tue">Mardi:</string>
+    <string name="tue1">Entraînement en force totale du corps, comme des squats, des redressements assis, des boucles de biceps renforcées, etc. ce jour-là. L\'entraînement en force et le cardio doivent être équilibrés pour obtenir d'excellents résultats.</string>
+    <string name="wed">Mercredi:</string>
+    <string name="wed1">Reposez-vous ou vous pouvez faire du yoga ou des étirements pour détendre vos muscles après un entraînement intense.</string>
+    <string name="thur">Jeudi:</string>
+    <string name="thur1">Aujourd\'hui encore est le jour du cardio pour 30 minutes.</string>
+    <string name="fri">Vendredi:</string>
+    <string name="fri1">Entraînement en force totale.</string>
+    <string name="sat">samedi:</string>
+    <string name="sat1">Exercice cardio.</string>
+    <string name="sun">dimanche:</string>
+    <string name="sun1">Prenez du repos et détendez-vous.</string>
+    -------------------------------------------------
+    <string name="monday">Lundi: Cardio</string>
+    <string name="tuesday">Mardi: Bras</string>
+    <string name="wednesday">Mercredi: Abs and Obliques</string>
+    <string name="thursday">Jeudi: Bas du corps</string>
+    <string name="friday">Vendredi: Cardio</string>
+    <string name="satsun">samedi and dimanche:</string>
+    <string name="monday1">Faites 30 minutes de cardio.Essayez le vélo, la marche, la randonnée ou les escaliers. Essayez de faire des intervalles consécutifs - 1 minute de marche, 1 minute de jogging, 1 minute de sprint - pour maximiser vos résultats en un temps minimum.</string>
+    <string name="tuesday1">Boucles biceps, 10 répétitions \ nRépartements de trips, 10 répétitions \ nAppuis sur les épaules, 10 répétitions \ nRépétez ce circuit deux fois de plus</string>
+    <string name="wednesday1">Crunches, 20 répétitions, craquements cyclistes, 20 répétitions, craquements obliques, 20 répétitions, maintenez pendant 30 secondes. Planche latérale, tenez pendant 30 secondes de chaque côté</string>
+    <string name="thursday1">Marches fendues, 10 répétitions sur chaque jambe. Accroupissez-vous au mur, maintenez la position pendant 30 secondes et augmentez au maximum jusqu\'à 1 minute lorsque vous vous sentez plus à l'aise. Augmente les jambes, 30 soulève avec les deux jambes, puis 15 sur chaque jambe. nRépétez ce circuit deux fois de plus.</string>
+    <string name="friday1">30 minutes de cardio de votre choix.</string>
+    <string name="satsun1">Du repos.</string>
+    -------------------------------------------------
+    <string name="stsub1">Faites cet entraînement complet 2-3 fois par semaine, en laissant au moins un jour de repos entre les deux. Chaque mouvement est un exercice "composé", c'est-à-dire qu'il cible plusieurs groupes musculaires. Vous en avez donc vraiment pour votre argent! Reposez-vous pendant 30 à 60 secondes après chaque série.</string>
+    <string name="sq">Aquat to Overhead Press</string>
+    <string name="sqsub1">Quadriceps, ischio-jambiers, fesses, abdos, épaules</string>
+    <string name="sqsub2">A.Stand avec les pieds écartés de la largeur des épaules, les coudes pliés, un poids de 5 livres dans chaque main à la hauteur des épaules, les paumes des mains en avant. Plus bas, accroupis (ne laissez pas les genoux dépasser les orteils), maintenez pendant un moment. \ N \ nB.Poussez les talons pour vous lever, en appuyant sur les poids au-dessus de votre tête. Retour à la position de départ. Faites 3 séries de 15 répétitions.</string>
+    <string name="si">Ligne d\'haltères à une jambe</string>
+    <string name="sisub1">1.Stand tenant un poids de 5 à 10 livres dans la main gauche. La charnière vers l’avant, de sorte que le dos soit plat et presque parallèle au sol, repose la main droite sur une chaise ou une étagère basse pour plus de soutien. Étendre le bras gauche vers le sol, paume de la main vers l\'intérieur; soulevez la jambe droite derrière vous pour que le corps forme un T. \ n2.Placez lentement le coude gauche et tirez vers le haut jusqu'à ce que le coude soit au niveau du torse, tenez pendant un moment, puis diminuez le poids. Faites 15 répétitions, puis changez de côté et répétez. Faites 3 séries.</string>
+    <string name="st">Step-Up avec Bicep Curl</string>
+    <string name="stsub2">1.Stand avec le pied gauche sur un banc ou une marche solide, un poids de 5 livres dans chaque main. en même temps, courbez les poids vers les épaules. Retour à la position de départ. Faites 15 répétitions, puis changez de côté et répétez. Faites 3 séries.</string>
+    <string name="dol">Planche de dauphin</string>
+    <string name="dolsub1">Allongez-vous face contre terre avec les orteils repliés. Gardez les avant-bras sur le sol, tirez le nombril vers la colonne vertébrale et levez les hanches pour arriver en position de planche basse. Inspirez tout en soulevant les hanches de manière à ce que le corps forme un V inversé, faites une pause puis revenez lentement à la position de départ. Faites 3 séries de 15 répétitions.</string>
+    <string name="man">Superman</string>
+    <string name="man1">Allongé sur le ventre, les bras et les jambes étendus, les orteils pointus, les paumes des mains. Inspirez en levant les bras et les jambes aussi haut que possible, faites une pause, puis expirez en revenant lentement à la position de départ. Faites 3 séries de 15 répétitions.</string>
+    -----------------------------------------
+    <string name="ice1">La glace</string>
+    <string name="ice2">La glace peut être utilisée pour réduire rapidement la rougeur, l\'enflure et l\'inflammation des boutons.Il aide à améliorer la circulation sanguine sur la zone touchée.Enveloppez la glace dans un chiffon et maintenez-la pendant quelques secondes.attendez quelques minutes et répétez le processus.</string>
+    <string name="lemon1">citron</string>
+    <string name="lemon2">Un autre moyen rapide de se débarrasser des boutons consiste à utiliser du jus de citron riche en vitamine C. Le jus de citron aide les boutons à sécher plus rapidement. Veillez à utiliser du jus de citron frais et non du jus en bouteille, qui contient des conservateurs. Il y a plusieurs façons d\'appliquer ce remède.</string>
+    <string name="lemon3">Trempez un coton-tige propre dans du jus de citron frais et appliquez-le sur les boutons avant d\'aller au lit. Vous pouvez également mélanger une cuillère à soupe de jus de citron avec une cuillère à café de cannelle en poudre et la mettre sur les boutons pendant la nuit. Le matin, bien laver la peau avec de l'eau tiède. Cependant, ce remède particulier ne convient pas aux peaux sensibles.</string>
+    <string name="steam1">Vapeur</string>
+    <string name="steam2">La vapeur est merveilleuse pour votre peau à tout moment, mais surtout lorsque vous avez des boutons. Elle aide à éliminer les huiles, la saleté et les bactéries emprisonnées dans les pores pouvant causer une infection ou une inflammation, la vapeur ouvre vos pores et permet à votre peau de respirer.</string>
+    <string name="steam3">1. Remplissez un grand récipient avec de l\'eau chaude et laissez la vapeur entrer en contact avec votre visage pendant quelques minutes. \ N2.Rincez votre visage à l'eau tiède et, après séchage, appliquez un hydratant sans huile.</string>
+    <string name="garlic1">Ail</string>
+    <string name="garlic2">L\'ail est un agent antiviral, antifongique, antiseptique et antioxydant qui peut aider au traitement rapide des boutons. Le soufre dans l\'ail favorise également la guérison rapide des boutons.</string>
+    <string name="garlic3">1.Coupez une gousse d\'ail fraîche en deux morceaux. Frottez l\'ail sur les boutons et laissez agir cinq minutes avant de laver la peau à l'eau tiède. Répétez le traitement plusieurs fois par jour.</string>
+    <string name="garlic4">Manger une gousse d\'ail cru par jour peut également aider à purifier votre sang. Mais ne mangez pas trop d\'ail cru, car cela pourrait perturber l'estomac.</string>
+    <string name="honey1">Mon chéri</string>
+    <string name="honey2">Le miel est une source d\'antibiotiques naturels qui peut accélérer le processus de guérison et aider à prévenir les infections. Utilisé avec du citron, il a un effet puissant.</string>
+    <string name="honey3">1.Prendre 1 cuillère à soupe de miel et 1 cuillère à soupe de jus de citron dans un bol. Mélangez-la et faites-y tremper une boule de coton et appliquez-la sur votre visage. Conservez-la pendant une demi-heure et lavez-la à l\'eau froide.</string>
+    <string name="lemon4">Prenez un citron frais et coupez-le en deux. Frottez la partie juteuse sur la cicatrice. Le citron fonctionne comme un agent de blanchiment naturel et réduit ainsi les imperfections et les cicatrices. Buvez du jus de citron (sans y mélanger le sucre) deux fois par jour pendant 15 jours.</string>
+    <string name="ice3">Glaçons</string>
+    <string name="ice4">Le cube de glace est un remède à la maison très facile et simple pour effacer les cicatrices. Prenez un glaçon et frottez-le doucement sur les cicatrices.</string>
+    <string name="aloevera1">Aloe Vera</string>
+    <string name="aloevera2">Prenez une feuille d’aloe vera et coupez-la en deux. Presser le gel et l\'appliquer sur la cicatrice.</string>
+    <string name="teatree1">Huile d\'arbre à thé</string>
+    <string name="teatree2">L\'huile de théier est un remède naturel très efficace pour éliminer les cicatrices. Cela fonctionne comme un charme sur les cicatrices. Assurez-vous que vous utilisez l\'huile d\'arbre à thé diluée.</string>
+    <string name="honey4">Appliquez du miel sur la cicatrice. Cela fonctionne très bien pour enlever les cicatrices.</string>
+    <string name="walnut1">Noyer</string>
+    <string name="walnut2">Les noix peuvent apporter une belle lueur à la peau terne, sèche et sans vie. Les noix contiennent des antioxydants qui aident à réparer les cellules de la peau et à favoriser une peau éclatante. La noix en poudre peut être utilisée pour éliminer les impuretés et la saleté qu\'un produit de nettoyage ordinaire ne peut pas faire. Mélangez deux cuillères à café de poudre de noix avec deux cuillères à soupe de yaourt nature pour obtenir une pâte. Appliquez cette pâte sur votre visage et votre cou. Lorsque la pâte est sèche, frottez le mélange autour de votre visage puis rincez-le à l'eau tiède. Utilisez ce masque une fois par semaine.</string>
+    <string name="walnut3">Faire tremper trois noix dans l\'eau pendant la nuit. Le matin, mélangez une cuillerée à thé d’eau de rose pour obtenir une pâte. Appliquez la pâte sur votre visage. Laissez agir pendant une heure puis rincez à l\'eau tiède. Suivez ce remède une fois par semaine. Vous pouvez également manger deux ou trois noix avec un verre de lait chaque matin.</string>
+    <string name="mint1">menthe</string>
+    <string name="mint2">L\'ingrédient principal de la menthe est le menthol, qui possède des propriétés rafraîchissantes et apaisantes. En outre, il possède de merveilleuses propriétés curatives qui aident à combattre les infections cutanées. garder la peau saine et éclatante.</string>
+    <string name="mint3">1.Mettez une cuillerée à thé de poudre de menthe et une cuillerée à soupe de yogourt nature et de terre de farce dans un bol. Mettez-la de côté pendant une demi-heure afin que tous les ingrédients soient bien imbibés. Puis agitez-le pour obtenir une pâte lisse. \ N3.Appliquez ce masque facial sur le visage et le cou. \ Laissez-le en place jusqu'à ce qu'il sèche naturellement, puis rincez-le à l'eau tiède. \ N5.Utilisez ce masque facial une fois par semaine pour profiter d\'une peau claire.</string>
+    <string name="almond1">Masque amande pour peau claire et éclatante</string>
+    <string name="almond2">Ce masque aux amandes fait maison peut faire des merveilles avec la couleur de votre peau. Utilisez tous les jours pendant quinze jours et voyez le résultat vous-même. Mieux que tout produit de soin de la peau sur le marché. Je l\'ai essayé et vous pouvez voir le résultat dès le premier jour.</string>
+    <string name="almond3">Ingrédients:</string>
+    <string name="almond4">3-4 amandes \ nLait pour faire tremper les amandes.</string>
+    <string name="almond5">Préparation:</string>
+    <string name="almond6">Dans la matinée, faites tremper 3 ou 4 amandes (selon la zone à appliquer) sur le lait La nuit, écrasez ces amandes dans le lait et utilisez encore du lait. Écrasez-le pour former une pâte très fine. Appliquer sur le visage. Partez pour la nuit entière. Le matin, laver le visage à l\'eau froide. Avec ce masque facial, votre peau devient plus claire et plus éclatante. Ce remède maison pour obtenir une peau claire et éclatante laisse également votre peau lisse et soyeuse. Pour les peaux sèches, vous pouvez utiliser quotidiennement. Pour les peaux grasses, utilisez deux fois par semaine.</string>
+    <string name="cucumber1">Masque facial au concombre et à la pastèque pour une peau claire et éclatante</string>
+    <string name="cucumber2">Ingrédients:</string>
+    <string name="cucumber3">Jus de concombre 2 cuillères à soupe Jus de melon d\'eau 2 cuillères à soupe Yaourt 1 cuillère à soupe Poudre de lait 1 cuillère à soupe</string>
+    <string name="cucumber4">Préparation:</string>
+    <string name="cucumber5">Mélangez tous les ingrédients et appliquez sur votre visage pendant environ quinze minutes. La pastèque aide à éclaircir la peau. Il supprime les imperfections et agit comme un toner. Le jus de concombre est bien connu pour son effet éclair de peau. Le yogourt adoucit et raffermit la peau. Le lait en poudre agit comme un liant et aide à nettoyer la peau et à éclaircir le teint. Ceci est un masque complet miracle pour une peau claire et éclatante. Vous devez l\'essayer et voir les effets merveilleux de ce remède à la maison pour obtenir une peau claire et éclatante naturellement à la maison.</string>
+    <string name="milk1">Masque pour le lait et les safrans pour obtenir une peau claire et éclatante</string>
+    <string name="milk2">Ingrédients:</string>
+    <string name="milk3">Crème de lait 2 cuillères à soupe de Safran</string>
+    <string name="milk4">Préparation:</string>
+    <string name="milk5">Mélanger le safran dans la crème de lait et laisser reposer toute la nuit. Le matin, mélangez la crème de lait avec les doigts et appliquez sur le visage. Le remède à la maison ci-dessus éclaircira le teint et donnera un éclat très sain à votre peau naturellement. Quelques gouttes de jus de citron peuvent également être ajoutées.</string>
+    <string name="hairoil1">Massage à l\'huile capillaire</string>
+    <string name="hairoil2">La première étape pour réduire la chute des cheveux consiste à masser votre cuir chevelu avec une huile capillaire appropriée. Un massage approprié des cheveux et du cuir chevelu augmentera le flux sanguin vers les follicules pileux, conditionnera le cuir chevelu et renforcera la force des racines de vos cheveux.</string>
+    <string name="hairoil3">Vous pouvez utiliser des huiles pour cheveux comme l\'huile de coco ou d\'amande, l\'huile d\'olive, l\'huile de ricin, l\'huile d\'amla ou autres.</string>
+    <string name="hairoil4">1.Massez l\'une des huiles capillaires mentionnées ci-dessus sur vos cheveux et votre cuir chevelu en appliquant une légère pression du bout des doigts. \ N2.Faites-le au moins une fois par semaine.</string>
+    <string name="fenugreek1">Fenugrec</string>
+    <string name="fenugreek2">Le fenugrec, également connu sous le nom de methi, est très efficace dans le traitement de la perte de cheveux. Les graines de fenugrec contiennent des antécédents d\'hormones qui favorisent la croissance des cheveux et aident à reconstruire les follicules pileux. Ils contiennent également des protéines et de l\'acide nicotinique qui stimulent la croissance des cheveux.</string>
+    <string name="fenugreek3">1. Faites tremper une tasse de graines de fenugrec dans l’eau toute la nuit. \ N2.Le matin, broyez-les pour en faire une pâte. \ Appliquez la pâte sur vos cheveux et couvrez-les avec un bonnet de douche. \ Après environ 40 minutes rincez vos cheveux.Suivez ce remède tous les matins pendant un mois.</string>
+    <string name="onionjuice1">Jus d\'oignon</string>
+    <string name="onionjuice2">Le jus d\'oignon aide à traiter la chute des cheveux en raison de sa forte teneur en soufre, qui contribue à améliorer la circulation sanguine vers les follicules pileux, à régénérer les follicules pileux et à réduire l\'inflammation. Extrayez le jus d'un oignon en le râpant, puis égouttez-le. Appliquez le jus directement sur le cuir chevelu. Laissez-le pendant environ 30 minutes, puis lavez-le. Enfin, shampooing vos cheveux.</string>
+    <string name="onionjuice3">Mélanger trois cuillères à soupe de jus d\'oignon et deux cuillères à soupe de gel d\'aloe vera. Vous pouvez également ajouter une cuillère à soupe d\'huile d\'olive. Appliquez ce mélange sur votre cuir chevelu et laissez agir pendant au moins 30 minutes avant de le rincer et de vous laver les cheveux. Répétez l'un ou l'autre de ces remèdes deux ou trois fois par semaine pendant plusieurs semaines.</string>
+    <string name="al1">Aloe Vera</string>
+    <string name="al2">1.Appliquez du gel ou du jus d\'aloe vera sur le cuir chevelu. \ N2.Laissez-le pendant quelques heures puis rincez-le à l\'eau tiède. \ N3.Répétez l\'opération trois à quatre fois par semaine.</string>
+    <string name="al3">Vous pouvez également consommer une cuillère à soupe de jus d\'aloe vera quotidiennement sur un estomac vide pour profiter d'une meilleure croissance des cheveux.</string>
+    <string name="he1">Régime équilibré</string>
+    <string name="he2">Pour surmonter le problème de la perte de cheveux, il est essentiel de maintenir un régime sain et sain. Incluez les fruits et les légumes dans votre régime alimentaire. N\'oubliez pas d\'ajouter les protéines.</string>
+    <string name="he3">Un mode de vie sain aidera à guérir les problèmes de cheveux.</string>
+    <string name="sesameoil1">Massage du cuir chevelu à l\'huile de sésame</string>
+    <string name="sesameoil2">Masser le cuir chevelu avec de l\'huile de sésame deux fois par semaine vous donnera de bons résultats. Après une heure, lavez-vous les cheveux. Vous pouvez utiliser un shampooing doux aux herbes ou Shikakai pour vous laver les cheveux</string>
+    <string name="co1">Jus de citron à l\'huile de noix de coco</string>
+    <string name="co2">Mélangez le jus de citron avec de l\'huile de noix de coco puis appliquez-le sur le cuir chevelu, laissez-le sur les cheveux pendant 30 minutes. Laver les cheveux avec un shampooing aux herbes.</string>
+    <string name="neem1">Feuilles de neem</string>
+    <string name="neem2">Utilisez Neem Leaves water pour se laver les cheveux après le shampooing. Cela va tuer les bactéries qui causent les pellicules. Ce remède efface même tous les problèmes de boutons que vous pourriez avoir.</string>
+    <string name="tt1">Traitement à l\'huile de théier</string>
+    <string name="tt2">L\'huile de théier est l\'un des meilleurs remèdes pour les problèmes de pellicules. Mélanger deux à trois gouttes dans votre shampooing habituel ou dans de l’eau de lavage des cheveux sera très efficace pour réduire les pellicules.</string>
+    <string name="amla1">Amla (GooseBerry)</string>
+    <string name="amla2">AmlaAmla (groseille à maquereau) est un autre remède contre les pellicules. Manger et appliquer du jus de groseille avec de l’huile d’amande guérira facilement les pellicules</string>
+    <string name="scalp1">Massez votre cuir chevelu</string>
+    <string name="scalp2">Masser n\'importe quelle partie de votre corps améliore la circulation en augmentant le flux sanguin dans la région. Lorsque vous massez votre cuir chevelu, l\'augmentation du flux sanguin stimule la croissance des follicules pileux. Le massage du cuir chevelu est une technique simple pour aider vos cheveux à pousser rapidement et en bonne santé.</string>
+    <string name="scalp3">Essayez de masser votre cuir chevelu chaque fois que vous prenez une douche. Utilisez le bout des doigts pour frotter doucement votre cuir chevelu dans un mouvement circulaire. Assurez-vous de couvrir l\'avant, l\'arrière et les côtés de votre tête. Répétez le processus aussi souvent que vous le souhaitez. Il présente l'avantage supplémentaire de réduire la tension et de vous aider à vous sentir calme.</string>
+    <string name="po1">Mangez beaucoup de protéines</string>
+    <string name="po2">Les cheveux sont principalement composés de protéines, ce qui en fait l\'élément le plus important d\'un régime alimentaire sain pour les cheveux. Examinez votre alimentation et assurez-vous de consommer suffisamment de protéines chaque jour. Lorsque votre régime alimentaire est déficient en protéines, votre corps ne produit pas autant de poils.</string>
+    <string name="to1">Ne pas utiliser les outils de coiffage thermique</string>
+    <string name="to2">Le séchage à l\'air est vraiment le choix le plus sain pour la croissance de vos cheveux. Sécher vos cheveux avec un sèche-cheveux finit par affaiblir la tige et entraîner des dommages. Il en va de même pour les autres outils de coiffage à la chaleur tels que les fers à friser, les fers plats et les rouleaux chauffants.</string>
+    <string name="to3">Après votre douche, séchez vos cheveux avec une serviette. Ne séchez pas la serviette. Peignez-le avec un peigne à dents larges. Appliquez le produit, tel que le revitalisant sans rinçage, puis laissez-le sécher complètement à l\'air.</string>
+    <string name="rub1">Frottez votre cuir chevelu avec des huiles essentielles</string>
+    <string name="rub2">Il a été démontré que certaines huiles essentielles aident à stimuler la croissance de nouveaux cheveux. Augmentez les avantages de votre massage du cuir chevelu en travaillant avec une petite quantité d’huile essentielle. Versez cinq à dix gouttes d\'huile sur vos doigts et massez l\'huile sur votre cuir chevelu.</string>
+    <string name="rub3">Essayez l\'une de ces huiles essentielles</string>
+    <string name="rub4">Menthe poivrée, qui améliore la circulation. Huile de théier, qui apaise le cuir chevelu et aide à atténuer les pellicules.</string>
+    <string name="trims1">Obtenez des trim fréquents</string>
+    <string name="trims2">Oui vraiment. Cela peut sembler contre-intuitif, mais si vous voulez des cheveux longs qui sont réellement en bonne santé, vous devez avoir une coupe régulière.</string>
+    ---------------------------------------------
+    <string name="gin1">Thé au gingembre</string>
+    <string name="gin2">Il aide en séchant un nez qui coule et dégouline et expulse les mucosités des voies respiratoires. Le gingembre est également connu pour soulager un rhume afin de le rendre supportable et peut-être même accélérer le processus de récupération.</string>
+    <string name="gar1">Thérapie gargarisme</string>
+    <string name="gar2">Le gargarisme à l\'eau de mer est un traitement séculaire contre la toux, mais vous pouvez également y ajouter du curcuma. Le sel et le curcuma combattent la toux et vous apporteront le soulagement dont vous avez réellement besoin.</string>
+    <string name="water1">Eau</string>
+    <string name="water2">Buvez de l\'eau tiède pour lutter contre le rhume, la toux et les maux de gorge. Boire de l\'eau tiède réduit l\'inflammation dans la gorge. De plus, l'eau aide à reconstituer les fluides dans le corps et élimine l'infection.</string>
+    <string name="her1">Thé aux herbes</string>
+    <string name="her2">Préparez une tisane en ajoutant une cuillerée à thé de poudre de curcuma et une cuillère à café de graines de carambole dans une tasse d\'eau et faites-la bouillir jusqu'à ce que l'eau diminue à une demi-tasse. Ajoutez du miel et buvez cette solution à base de plantes deux à trois fois par jour.</string>
+    <string name="tu1">Safran des Indes</string>
+    <string name="tu2">Faire rôtir la racine de curcuma et la réduire en une poudre lisse. Mélangez-le avec de l\'eau et du miel et buvez-le deux fois par jour.</string>
+    ---------------------------------------
+    <string name="esm1">Profitez de la menthe</string>
+    <string name="esm2">Le thé à la menthe fraîche (ou tout simplement le thé à la menthe en général) peut aider à détendre les muscles de l\'estomac. Cela aide également à améliorer le flux de la bile, ce qui vous aide à digérer correctement. Ceci est particulièrement utile en cas d\'indigestion ou de gaz / ballonnements.</string>
+    <string name="esm3">Tu auras besoin de:</string>
+    <string name="esm4">Une poignée de feuilles de menthe poivrée fraîche OU 1 à 2 cuillères à thé séchées</string>
+    <string name="esm5">instructions:</string>
+    <string name="esm6">Couvrir la menthe poivrée avec 1 tasse d\'eau bouillante, couvrir et laisser infuser pendant 5-10 minutes. Sirotez lentement alors qu\'il fait encore très chaud. Si vous utilisez des feuilles de menthe poivrée fraîches, vous pouvez aussi les mâcher pour soulager les douleurs d'estomac. Vous pouvez également simplement utiliser un sachet de thé pré-fabriqué si cela vous semble plus souhaitable.</string>
+    <string name="us1">Utilisez une compresse chaude</string>
+    <string name="us2">L\'ajout de chaleur sur votre estomac peut aider à réduire le sentiment de crampes douloureux et inconfortable que vous ressentez. Utilisez une bouteille d\'eau chaude ou une chaussette (propre) remplie de riz chauffé à une température agréable et placez-la sur votre estomac. Pour de meilleurs résultats, allongez-vous avec le dispositif de chauffage au-dessus de votre ventre.</string>
+    <string name="tr1">Essayez le jus d\'aloe vera</string>
+    <string name="tr2">Pas directement l\'aloe vera de la plante, mais le jus d\'aloe vera. C\’est un supplément que vous pouvez trouver dans de nombreux magasins d’aliments naturels qui a démontré réduire les douleurs des crampes d’estomac. Il a également des liens avec l'aide à la constipation et à l\'indigestion.</string>
+    <string name="tg1">Essayez de l\'eau de gingembre</string>
+    <string name="tg2">Le gingembre, avec ses propriétés médicinales et ses avantages pour la santé, régule la digestion et réduit les douleurs abdominales. Le gingembre frais fonctionne mieux et plus rapidement que le sec. Mélangez quelques morceaux de gingembre récents dans de l\'eau chaude, puis égouttez-les et buvez-les pour favoriser la relaxation. Toutefois, si vous ne pouvez pas manipuler les aliments épicés, choisissez d’autres formes, comme les suppléments au gingembre, que vous pourrez facilement trouver sur le marché.</string>
+    <string name="yo1">Yaourt</string>
+    <string name="yo2">Le yogourt est bon pour la santé de votre estomac. En fait, le yaourt avec des cultures vivantes (bonnes bactéries) et soulage les maux d\'estomac dus à une indigestion.</string>
+    <string name="yo3">instruction:</string>
+    <string name="yo4">Mélangez deux cuillères à soupe de yaourt nature et une pincée de sel dans une tasse d\'eau. Ajoutez trois cuillerées à thé de jus de feuilles de coriandre fraîche. une heure après les repas pour soulager les maux d\'estomac.</string>
+    <string name="yo5">Vous pouvez également manger du yogourt nature, non sucré, plusieurs fois par jour jusqu\'à ce que vous remarquiez une amélioration de votre état.</string>
+    ---------------------------------------
+    <string name="ba1">Basilic</string>
+    <string name="ba2">Le basilic agit comme un relaxant musculaire, ce qui en fait un traitement utile contre les maux de tête légers causés par des muscles tendus. De plus, il a des effets calmants et analgésiques. Mettez trois ou quatre feuilles de basilic frais dans une tasse d\'eau bouillante et laissez mijoter pendant quelques minutes. Ajoutez éventuellement un peu de miel et sirotez le thé lentement. Vous pouvez également cuire une cuillerée à soupe de feuilles de basilic ou quelques gouttes d’huile de basilic dans une casserole d’eau bouillante et vous pencher doucement sur la casserole pour prendre la vapeur. Sinon, mâchez des feuilles de basilic frais ou massez votre front avec de l'huile de basilic mélangée à une huile de base.</string>
+    <string name="ip1">Pack de glace</string>
+    <string name="ip2">Le froid de la glace aide à réduire l\'inflammation qui contribue aux maux de tête. De plus, il a un effet anesthésiant sur la douleur. L\'application d\'un sac de glace sur la nuque peut vous soulager des migraines. Vous pouvez également placer un gant de toilette trempé dans de l’eau glacée sur la tête pendant cinq minutes. Répétez le processus plusieurs fois. Alternativement, vous pouvez utiliser un sac de légumes congelés comme compresse froide. Dans une demi-heure, vous vous sentirez un peu soulagé.</string>
+    <string name="cl1">Clous de girofle</string>
+    <string name="cl2">Les clous de girofle peuvent être utilisés pour soulager les maux de tête de tension car il possède des propriétés de refroidissement et de soulagement de la douleur. Écrasez doucement quelques clous de girofle et mettez-les dans un sachet ou un mouchoir propre. Inspirez l\'odeur des clous de girofle écrasés chaque fois que vous avez mal à la tête jusqu\'à ce que vous obteniez un soulagement de la douleur. Une autre option consiste à mettre deux gouttes d'huile de girofle dans une cuillère à soupe d'huile essentielle et de masser votre front et vos tempes. Vous pouvez également mélanger deux cuillerées à thé d'huile de noix de coco, une cuillère à café de sel de mer et deux gouttes d'huile de girofle et frotter doucement ce mélange sur votre front.</string>
+    <string name="cof1">café</string>
+    <string name="cof2">Prenez une tasse de café fort. La caféine réduit le gonflement des vaisseaux sanguins et peut donc aider à soulager les maux de tête. C\'est pourquoi la caféine est un ingrédient de certains analgésiques extra-puissants comme Excedrin. Toutefois, si vous êtes déjà un gros buveur de café, sautez ceci. Le retrait de la caféine peut causer des maux de tête, créant un cercle vicieux.</string>
+    <string name="yog1">Faire du yoga</string>
+    <string name="yog2">Le yoga concentre votre esprit, étire vos muscles et vous permet de bouger de manière à vous aider à réduire la tension. Si vous diminuez la tension, vous pouvez faire baisser le mal de tête. Faire quelques mouvements au début de la douleur peut aider, mais la meilleure chose à faire est de prévoir quelques minutes chaque jour pour vous entraîner régulièrement et éviter les maux de tête avant qu\'ils ne surviennent.</string>
+    ---------------------------------------
+    <string name="exe1">Des exercices</string>
+    <string name="exe2">1. Supin Hanstring Stretch</string>
+    <string name="exe3">Allongé sur le dos, pliez le genou droit contre la poitrine et placez une sangle ou une serviette enroulée autour du pied. Redressez votre jambe vers le plafond. Appuyez sur les deux talons. Si le bas du dos est tendu, pliez le genou gauche et placez le pied au sol. Maintenez la position pendant 3-5 minutes, puis passez à gauche pendant 3-5 minutes.</string>
+    <string name="exe4">2. Twist à deux genoux</string>
+    <string name="exe5">Allongé sur le dos, pliez les genoux contre la poitrine et tirez les bras en forme de T. En expirant, baissez les genoux contre le sol à droite. Gardez les deux épaules en appuyant fermement. Si l\'épaule gauche se lève, abaissez vos genoux plus loin du bras droit. Tenez pendant 1-2 minutes de chaque côté.</string>
+    <string name="exe6">3. Enfiler l\'aiguille</string>
+    <string name="exe7">Allongé sur le dos, pliez les deux genoux avec les pieds à plat sur le sol. Pliez le genou droit comme un personnage quatre, avec la cheville externe gauche vers la cuisse droite. Soulevez le pied gauche dans les airs, en amenant le mollet gauche parallèlement au sol. Passez votre main droite entre les cuisses et entrelacez vos mains derrière votre cuisse gauche. Tenez 2-3 minutes, puis répétez de l\'autre côté.</string>
+    <string name="exe8">4. Étirement du talon</string>
+    <string name="exe9">Étire et mobilise la colonne vertébrale</string>
+    <string name="exe10">Position de départ: Agenouillez-vous à quatre pattes, les genoux sous les hanches et les mains sous les épaules. Ne pas trop cambrer le bas du dos. Gardez votre cou long, vos épaules en arrière et ne verrouillez pas vos coudes.</string>
+    <string name="exe11">Action: Lentement, retournez vos fesses en maintenant la courbe naturelle de la colonne vertébrale. Tenez l\'étirement pendant une profonde respiration et revenez à la position de départ. Répétez 8 à 10 fois. </string>
+    <string name="exe12">Conseils: évitez de vous asseoir sur vos talons si vous avez un problème de genou. Assurer un positionnement correct à l\'aide d'un miroir. Étirez seulement aussi loin que vous vous sentez à l'aise.</string>
+    <string name="exe13">Jambes sur le mur</string>
+    <string name="exe14">Scoot vos fesses dans le mur et balayez vos pieds le long du mur. Cette pose est excellente pour détendre les muscles du bas du dos et draine le fluide stagnant des pieds et des chevilles. Faites cette pose après un entraînement difficile et toujours après un voyage en avion. Maintenir pendant 5-10 minutes</string>
+    <string name="res1">Du repos</string>
+    <string name="res2">La cessation de l\'activité pendant quelques jours permet aux tissus lésés et même aux racines nerveuses de commencer à guérir, ce qui aidera à soulager les douleurs lombaires. Cependant, plus de quelques jours de repos peuvent affaiblir les muscles et les muscles faibles doivent lutter pour soutenir adéquatement la colonne vertébrale. Les personnes qui ne font pas régulièrement de l\'exercice pour développer leur force et leur flexibilité risquent davantage de souffrir de douleurs récurrentes ou prolongées au bas du dos.</string>
+    <string name="hip1">Packs de chaleur et de glace</string>
+    <string name="hip2">La thérapie par la chaleur et / ou le froid aide à soulager la plupart des types de douleur au bas du dos en réduisant l\'inflammation. Les gens utilisent souvent de la glace, mais certains préfèrent la chaleur. Les deux peuvent être utilisés en alternance.</string>
+    <string name="mgp1">Maintenir une bonne posture</string>
+    <string name="mgp2">La douleur a peut-être commencé après une longue séance d’entraînement à la salle de sport, mais la tension qui l’a provoquée s’est probablement accumulée pendant des années. Wilmarth dit que la plupart des gens ont une mauvaise posture lorsqu\'ils vont à leurs activités quotidiennes, ce qui leur impose une pression inutile sur le dos. "Les petites choses s'additionnent", dit-elle. "Vous pouvez augmenter la pression sur votre dos de 50% simplement en vous penchant au-dessus de l'évier pour vous brosser les dents. Le fait de garder la courbure adéquate dans le dos diminue la pression sur les nerfs et réduit les douleurs au dos."</string>
+    <string name="rsr1">Frottez un peu de relief</string>
+    <string name="rsr2">Demandez à un partenaire de masser la région douloureuse. Si vous souhaitez utiliser une crème ou une pommade «dorsal», continuez, mais soyez prudent, car la plupart des crèmes topiques provoquent une irritation de la peau après quelques applications. Pour faciliter le massage du dos, insérez plusieurs balles de tennis dans une chaussette longue, nouez l\'extrémité de la chaussette et demandez à votre partenaire de la faire rouler sur le dos.</string>
+    ------------------------------------------
+    <string name="mas1">Massage</string>
+    <string name="mas2">La massothérapie aide à soulager les douleurs articulaires en améliorant la circulation et en apaisant les inflammations. En fait, plusieurs études indiquent qu\'un massage régulier peut améliorer la douleur, la raideur et l\'amplitude de mouvement de l'articulation touchée. Pour masser la zone touchée, utilisez de l’huile chaude comme de la noix de coco, de l’olive, de la moutarde, du ricin ou de l’ail et appliquez une légère pression pendant le massage</string>
+    <string name="hcc1">Compresses de chaleur et de froid</string>
+    <string name="hcc2">Alterner les compresses chaudes et froides peut également aider à soulager les douleurs articulaires. La thermothérapie aide à réduire la douleur, à augmenter le flux sanguin et à détendre les muscles et les articulations La thérapie par le froid réduit l\'inflammation et engourdit les zones autour de l'articulation touchée.</string>
+    <string name="hcc3">1.Enveloppez les deux compresses dans des serviettes séparées avant de les utiliser. Ils ne doivent pas être appliqués directement sur la peau. \ N \ n2.Placez la compresse chaude sur la zone touchée pendant environ trois minutes. \ N \ n3.Enlevez la compresse et mettez-la immédiatement à la place pendant environ une minute. \ n \ n4.Répétez le processus 15 à 20 minutes plusieurs fois par jour jusqu'à obtenir un soulagement.</string>
+    <string name="hcc4">N\'utilisez pas de traitement thermique si la zone touchée est rouge, chaude et irritée. N\'utilisez pas de thérapie par le froid si vous avez des problèmes circulatoires.</string>
+    <string name="trm1">Safran des Indes</string>
+    <string name="trm2">Le curcuma est un excellent remède ayurvédique pour les douleurs articulaires. Il contient un ingrédient actif appelé curcumine aux propriétés anti-inflammatoires et antioxydantes. Mélangez une cuillère à thé de poudre de curcuma et un peu de miel dans un verre de lait tiède. Buvez-le tous les jours, au moins pendant quelques jours. Une autre option consiste à prendre des gélules de curcuma de 250 à 500 mg trois fois par jour jusqu\'à ce que vous soyez satisfait du résultat.</string>
+    <string name="dmw1">Boire plus d\'eau</string>
+    <string name="dmw2">Parmi les avantages moins connus de boire plus d\'eau est qu\'il adoucit le cartilage et le maintient hydraté. L\'eau vous aide à maintenir un volume sanguin suffisant pour que les nutriments puissent circuler dans votre sang et dans vos articulations. Il élimine également les déchets de vos articulations, ce qui les rend moins susceptibles de faire mal.</string>
+    <string name="acv1">Vinaigre de cidre de pomme</string>
+    <string name="acv2">Le vinaigre de cidre aide à réduire les douleurs articulaires en éliminant les toxines accumulées dans les articulations et les tissus conjonctifs. En raison de son effet alcalinisant, il est particulièrement bénéfique pour les personnes souffrant d\'arthrite. De plus, il est riche en minéraux comme le magnésium, le calcium, le potassium et le phosphore.</string>
+    <string name="acv3">Dans une tasse d\'eau tiède, mélangez une à trois cuillerées à thé de vinaigre de cidre biologique et un peu de miel Buvez cette solution deux ou trois fois par jour, de préférence avant les repas. Vous pouvez poursuivre ce traitement simple régulièrement car, en plus d’aider à soulager les douleurs articulaires, il est bénéfique pour votre santé globale.</string>
+    ------------------------------------
+    Sun Burn
+    <string name="pop1">Pâte de pommes de terre</string>
+    <string name="pop2">Si vous avez la peau rouge et brûlante, ramassez quelques pommes de terre. Les pommes de terre ont été reconnues comme un analgésique au fil des ans, particulièrement efficaces pour les irritations cutanées mineures, les égratignures, les morsures et les brûlures, ainsi que pour la réduction éventuelle de l\'inflammation. Certaines personnes estiment que le jus de la pomme de terre donne les meilleurs résultats, alors que d’autres estiment que les tranches suffisent. Essayez les deux et voyez lequel est le meilleur remède contre les coups de soleil.</string>
+    <string name="pop3">Tu auras besoin de:</string>
+    <string name="pop4">2 pommes de terre Une râpe, un mélangeur ou un couteau Boules de coton, tampons de coton, papiers mouchoirs ou gaze</string>
+    <string name="pop5">instruction</string>
+    <string name="pop6">Lavez et frottez soigneusement vos pommes de terre, puis râpez-les dans un bol ou coupez-les et mettez-les dans un mélangeur. Il n\'est pas nécessaire d\'enlever les pelures. Si vous utilisez un mélangeur, faites-les tourner jusqu\'à ce qu\'ils soient complètement liquides. S\'ils semblent trop secs, vous pouvez ajouter une petite quantité d\'eau. Versez le mélange, imbibez-le de coton et appliquez-le sur les coups de soleil. Une méthode plus simple et peut-être plus efficace consisterait à faire tremper la gaze et à la déposer sur la brûlure. Si vous utilisez une râpe, râpez les pommes de terre au-dessus d’un bol et appliquez la pulpe en essayant d’obtenir le plus de jus possible. Vous pouvez également essayer simplement de couper les pommes de terre en tranches et de poser les tranches directement sur votre brûlure.</string>
+    <string name="dru1">Boire</string>
+    <string name="dru2">Le coup de soleil est une brûlure. Cela semble évoquer une évidence, mais nous ne pensons souvent pas au fait que nous avons vraiment brûlé notre peau. Comme pour tout ce qui brûle, votre peau est desséchée et votre corps aussi probablement déshydraté. Gardez un grand verre ou une bouteille d\'eau glacée à portée de main en tout temps pour vous assurer de rester rempli d'H20, nécessaire pour soigner votre peau endommagée</string>
+    <string name="cmt1">Rafraîchissez-vous avec du thé à la menthe</string>
+    <string name="cmt2">La menthe rafraîchit et apaise naturellement tout ce qu\'elle touche, et les coups de soleil ne font pas exception. L\'acide tannique et la théobromine présents dans le thé vert aident également à soulager la douleur et à guérir la peau endommagée lorsqu'elle est appliquée par voie topique.</string>
+    <string name="cmt3">Tu auras besoin de:</string>
+    <string name="cmt4">1 litre d\'eau bouillante \ 5 sachets de thé vert \ 3 tasses de feuilles de menthe fraîche \ tampons en coton ou un chiffon doux</string>
+    <string name="cmt5">instructions</string>
+    <string name="cmt6">Porter à ébullition 1 litre d\'eau. Retirez les ficelles et les étiquettes des 5 sachets de thé et ajoutez-les, ainsi que 3 tasses de feuilles de menthe fraîche, dans une casserole. Versez l\'eau bouillante sur les feuilles de menthe et les sachets de thé et couvrez-les d\'un couvercle, en les laissant reposer pendant environ une heure, afin de pouvoir en retirer toutes les bonnes choses. Égoutter puis refroidir. Lorsque le mélange a complètement refroidi, utilisez des tampons de coton ou un chiffon doux et propre imbibé de liquide et appliquez directement sur la brûlure. Vous pouvez également le verser sur la brûlure si vous le souhaitez. Si vous vous trouvez sans thé vert, vous pouvez remplacer le thé noir, qui contient également des tanins.</string>
+    <string name="isa1">Offrez-vous un peu d\'aloès</string>
+    <string name="isa2">Le gel d’aloe vera convient à beaucoup de gens quand ils ont un coup de soleil. C’est cool, apaisant, et semble aspirer la piqûre et les rougeurs dès le coup de soleil. Parce que l\'aloès est utile pour un certain nombre d\'autres maux (tels que l\'acné ou les brûlures d\'estomac), il est pratique d\'avoir une plante qui pousse dans votre maison. Ils sont faciles à entretenir, sans aucun additif, et vous n’aurez plus à courir pour acheter plus dans le magasin tout le temps, une fois que celui-ci est assez grand. Si vous préférez ne pas avoir la plante, vous pouvez vous procurer un gel d’aloe vera de bonne qualité auprès du magasin, c’est la meilleure chose à faire: c’est aussi plus pratique pour traiter de grandes surfaces.</string>
+    <string name="isa3">Tu auras besoin de:</string>
+    <string name="isa4">Une aloès aux feuilles épaisses et juteuses. Assez de gel acheté en magasin pour couvrir votre brûlure.</string>
+    <string name="isa5">Si vous utilisez la plante, coupez plusieurs grosses feuilles au milieu, sans les couper. Étalez-les à plat et déposez-les sur votre brûlure. Vous pouvez également presser le gel. Si vous utilisez un gel qui a déjà été extrait, appliquez autant que nécessaire à votre coup de soleil. La plante est généralement plus pratique pour traiter des zones plus petites, tandis que le gel d\'aloès acheté est plus facile à étaler sur une grosse brûlure. Une combinaison des deux fonctionne également.</string>
+    <string name="upy1">Utilisez du yaourt nature</string>
+    <string name="upy2">Le yogourt nature cultivé vivant contient une abondance de probiotiques et d’enzymes qui aident à guérir notre peau. Lorsque vous vous trouvez rouge et que vous avez un coup de soleil, cela peut vous aider à récupérer plus rapidement. Assurez-vous qu’il s’agit vraiment de yogourt ordinaire, pas de vanille, et qu’il contient des probiotiques.</string>
+    <string name="upy3">Tu auras besoin de:</string>
+    <string name="upy4">1/2 tasse ou plus de yaourt nature cultivé vivant</string>
+    <string name="upy5">Une demi-tasse de yogourt nature devrait suffire à traiter au moins les brûlures au visage, mais n\'hésitez pas à en utiliser davantage si vous souhaitez couvrir davantage de zones. Lavez-vous les mains et appliquez du yaourt frais directement sur votre brûlure, et laissez-le reposer pendant au moins 5 minutes. Une fois la douleur atténuée, rincez-la doucement à l'eau froide ou tiède.</string>
+    ------------------------------
+    <string name="helpfaq">FAQ</string>
+    <string name="helpterms">Termes et politique de confidentialité</string>
+    <string name="helpappinfo">Informations sur l\'application</string>
+    ------------------------------------------------------------------
+    <string name="pb">Port Blair</string>
+    <string name="hi">Havelock Island</string>
+    <string name="ni">Neil Island</string>
+    <string name="la">Little Andaman</string>
+    <string name="anantapur">Anantapur</string>
+    <string name="eg">East Godavari</string>
+    <string name="guntur">Guntur</string>
+    <string name="krishna">Krishna</string>
+    <string name="kurnool">Kurnool</string>
+    <string name="prakasam">Prakasam</string>
+    <string name="srikakulam">Srikakulam</string>
+    <string name="nellore">Nellore</string>
+    <string name="visakhapatnam">Visakhapatnam</string>
+    <string name="vizianagaram">Vizianagaram</string>
+    <string name="wg">West Godavari</string>
+    <string name="ysr">Y.S.R(Kadapa)</string>
+    <string name="anjaw">Anjaw</string>
+    <string name="changlang">Changlang</string>
+    <string name="dv">Dibang Valley</string>
+    <string name="ek">East Kameng</string>
+    <string name="es">East Siang</string>
+    <string name="lohit">Lohit</string>
+    <string name="tawang">Tawang</string>
+    <string name="morigaon">Morigaon(Marigaon)</string>
+    <string name="sonitpur">Sonitpur</string>
+    <string name="udalguri">Udalguri</string>
+    <string name="patna">Patna</string>
+    <string name="saharsa">Saharsa</string>
+    <string name="vaishali">Vaishali</string>
+    <string name="bj">Bijapur</string>
+    <string name="bilaspur">Bilaspur</string>
+    <string name="durg">Durg</string>
+    <string name="raipur">Raipur</string>
+    <string name="dn">Dadra and Nagar Haveli</string>
+    <string name="daman">Daman</string>
+    <string name="diu">Diu</string>
+    <string name="nd">New Delhi</string>
+    <string name="ng">North Goa</string>
+    <string name="sg">South Goa</string>
+    <string name="ahmadabad">Ahmadabad(Ahmedabad)</string>
+    <string name="narmada">Narmada</string>
+    <string name="patan">Patan</string>
+    <string name="rajkot">Rajkot</string>
+    <string name="gurgaon">Gurgaon</string>
+    <string name="panipat">Panipat</string>
+    <string name="shimla">Shimla</string>
+    <string name="jammu">Jammu</string>
+    <string name="srinagar">Srinagar</string>
+    <string name="kollam">Kollam</string>
+    <string name="malappuram">Malappuram</string>
+    <string name="thiruvananthapuram">Thiruvananthapuram</string>
+    <string name="lw">Lakshadweep</string>
+    <string name="bhopal">Bhopal</string>
+    <string name="indore">Indore</string>
+    <string name="jabalpur">Jabalpur</string>
+    <string name="mumbai">Mumbai</string>
+    <string name="pune">Pune</string>
+    <string name="nagpur">Nagpur</string>
+    <string name="shridi">Shridi</string>
+    <string name="imphal">Imphal</string>
+    <string name="thoubal">Thoubal</string>
+    <string name="shillong">Shillong</string>
+    <string name="guwahati">Guwahati</string>
+    <string name="aizawl">Aizawl</string>
+    <string name="kohima">Kohima</string>
+    <string name="bhubaneswar">Bhubaneswar</string>
+    <string name="sambalpur">Sambalpur</string>
+    <string name="puri">Puri</string>
+    <string name="pondicherry">Pondicherry</string>
+    <string name="yanam">Yanam</string>
+    <string name="amritsar">Amritsar</string>
+    <string name="chandigarh">Chandigarh</string>
+    <string name="jaipur">Jaipur</string>
+    <string name="udaipur">Udaipur</string>
+    <string name="gangtok">Gangtok</string>
+    <string name="chennai">Chennai</string>
+    <string name="madurai">Madurai</string>
+    <string name="coimbatore">Coimbatore</string>
+    <string name="salem">Salem</string>
+    <string name="thanjavur">Thanjavur</string>
+    <string name="vellore">Vellore</string>
+    <string name="ooty">Ooty</string>
+    <string name="hosur">Hosur</string>
+    <string name="hyderabad">Hyderabad</string>
+    <string name="warangal">Warangal</string>
+    <string name="nalagonda">Nalagonda</string>
+    <string name="secunderabad">Secunderabad</string>
+    <string name="agartala">Agartala</string>
+    <string name="lucknow">Lucknow</string>
+    <string name="agra">Agra</string>
+    <string name="kanpur">Kanpur</string>
+    <string name="dehradun">Dehardun</string>
+    <string name="badrinath">Badrinath</string>
+    <string name="kolkata">Kolkata</string>
+    <string name="durgapur">Durgapur</string>
+    <string name="bokaro">Bokaro</string>
+    <string name="Ranchi">Ranchi</string>
+    <string name="bangalore">Bangalore</string>
+    <string name="kolar">Kolar</string>
+    <string name="mysore">Mysore</string>
+    <string name="chittoor">Chittoor</string>
+    <string name="ranchi">Ranchi</string>
+    ------------------------------------------------------------------
+    <string name="alarm_on">Alarme sur</string>
+    <string name="alarm_off">Alarme éteinte</string>
+    <string name="alarm_text">Rappelez votre alarme</string>
+    -------------------------------------------------------------------
+    <string-array name="whale_array">
+        <item>Choisissez un son de baleine!</item>
+        <item>Filet à bulles à bosse</item>
+        <item>Contact à bosse Appeler Moo</item>
+        <item>Contact à bosse Appeler Whup</item>
+        <item>Appel à bosse</item>
+        <item>Splash flipper flipper</item>
+        <item>Queue de bosse gifles</item>
+        <item>Chant de baleine à bosse</item>
+        <item>Chant de baleine à bosse avec moteur hors-bord</item>
+        <item>Respiration sifflante de bosse</item>
+        <item>Clics d'écholocation des épaulards</item>
+        <item>Épaulard au large</item>
+        <item>Résident d'épaulard</item>
+        <item>Épaulard transitoire</item>
+    </string-array>
+    -----------------------------------------------------
+    <string name="title_activity_portal">Portail</string>
+    <string name="navigation_drawer_open">Ouvrir le tiroir de navigation</string>
+    <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
+    <string name="nav_header_title">HCMS</string>
+    <string name="nav_header_subtitle">Système de gestion des soins de santé</string>
+    <string name="nav_header_desc">En-tête de navigation</string>
+    <string name="action_settings">Réglages</string>
+    <string name="title_activity_admin">Détails de l\'administrateur</string>
+    <string name="title_activity_doctor">Docteur Détails</string>
+    <string name="title_activity_google_map">Google Map</string>
+    <string name="title_activity_top_hsp">Top 15 des hôpitaux en Inde</string>
+    <string name="title_activity_hospital">Hôpitaux en Inde</string>
+    <string name="title_activity_donate_bld">Donner du sang</string>
+    <string name="title_activity_msg">Message</string>
+    <string name="title_activity_calls">Appel</string>
+    <string name="title_activity_vitamin">Vitamine</string>
+    <string name="title_activity_total_hlth">Santé totale</string>
+    <string name="title_activity_alarms">Rappel d\'alarme</string>
+    <string name="title_activity_live_cht">Chat en direct</string>
+    <string name="title_activity_alrm">Alarme</string>
+    ---------------------------------------------------------
+    <string-array name="States_and_Cities">
+        <item>Andaman and Nicobar Islands (अंडमान व नोकोबार द्वीप समूह)</item>
+        <item>Andhra Pradesh (ఆంధ్రప్రదేశ్)</item>
+        <item>Arunachal Pradesh (अरुणाचल प्रदेश)</item>
+        <item>Assam (असम)</item>
+        <item>Bihar (बिहार)</item>
+        <item>Chhattisgarh (छत्तीसगढ़)</item>
+        <item>Dadra and Nagar Haveli (दादरा और नगर हवेली)</item>
+        <item>Daman and Diu (दमन और दीव)</item>
+        <item>Delhi (दिल्ली)</item>
+        <item>Goa (गोवा)</item>
+        <item>Gujarat (गुजरात)</item>
+        <item>Haryana (हरयाणा)</item>
+        <item>Himachal Pradesh (हिमाचल प्रदेश)</item>
+        <item>Jammu and Kashmir (जम्मू-कश्मीर)</item>
+        <item>Jharkhand (झारखंड)</item>
+        <item>Karnataka (ಕರ್ನಾಟಕ)</item>
+        <item>Kerala (കേരളം)</item>
+        <item>Lakshadweep (लक्षद्वीप)</item>
+        <item>Madhya Pradesh (मध्य प्रदेश)</item>
+        <item>Maharashtra (महाराष्ट्र)</item>
+        <item>Manipur (मणिपुर)</item>
+        <item>Meghalaya (मेघालय)</item>
+        <item>Mizoram (मिजोरम)</item>
+        <item>Nagaland (नगालैंड)</item>
+        <item>Odisha (ओडिशा)</item>
+        <item>Puducherry (पुडुचेरी)</item>
+        <item>Punjab (पंजाब)</item>
+        <item>Rajasthan (राजस्थान)</item>
+        <item>Sikkim (सिक्किम)</item>
+        <item>Tamil Nadu (தமிழ்நாடு)</item>
+        <item>Telangana (తెలంగాణ)</item>
+        <item>Tripura (त्रिपुरा)</item>
+        <item>Uttar Pradesh (उत्तर प्रदेश)</item>
+        <item>Uttarkhand (उत्तराखंड)</item>
+        <item>West Bengal (पश्चिम बंगाल)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Andaman">
+        <item>Port Blair (पोर्ट ब्लेयर)</item>
+        <item>Havelock Island (हवेलॉक द्वीप)</item>
+        <item>Neil Island (नील द्वीप)</item>
+        <item>Little Andaman (लिटिल अंडमान)</item>
+    </string-array>
+    ------------------------------------
+    <string-array name="Andhra_Pradesh">
+        <item>Anantapur (అనంతపురం)</item>
+        <item>Chittoor (చిత్తూరు)</item>
+        <item>East Godavari (తూర్పు గోదావరి)</item>
+        <item>Guntur (గుంటూరు)</item>
+        <item>Krishna (కృష్ణ)</item>
+        <item>Kurnool (కర్నూలు)</item>
+        <item>Prakasam (ప్రకాశం)</item>
+        <item>Srikakulam (శ్రీకాకుళం)</item>
+        <item>Nellore (నెల్లూరు)</item>
+        <item>Visakhapatnam (విశాఖపట్నం)</item>
+        <item>Vizianagaram (విజయనగరం)</item>
+        <item>West Godavari (పశ్చిమ గోదావరి)</item>
+        <item>Y.S.R(Kadapa) (కడప)</item>
+    </string-array>
+    ---------------------------------------------
+    <string-array name="Arunachal_Pradesh">
+        <item>Anjaw</item>
+        <item>Changlang (चांगलांग)</item>
+        <item>Dibang Valley (डिबांग घाटी)</item>
+        <item>East Kameng (पूर्वी कामेंग)</item>
+        <item>East Siang (पूर्वी सियांग)</item>
+        <item>Lohit (लोहित)</item>
+        <item>Tawang (तवांग)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Assam">
+        <item>Morigaon(Marigaon) (मोरीगांव(Marigaon))</item>
+        <item>Sonitpur (सोनितपुर)</item>
+        <item>Udalguri (उदलगुड़ी)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Bihar">
+        <item>Patna (पटना)</item>
+        <item>Saharsa (सहरसा</item>
+        <item>Vaishali (वैशाली)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Chhattisgarh">
+        <item>Bijapur (बीजापुर)</item>
+        <item>Bilaspur (बिलासपुर)</item>
+        <item>>Durg (दुर्ग)</item>
+        <item>Raipur (रायपुर)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Dadra_and_Nagar_Haveli">
+        <item>Dadra and Nagar Haveli (दादरा और नगर हवेली)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Daman_and_Diu">
+        <item>Daman (दमन)</item>
+        <item>Diu (दीव)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Delhi">
+        <item>New Delhi (नई दिल्ली)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Goa">
+        <item>North Goa (उत्तर गोवा)</item>
+        <item>South Goa (दक्षिण गोवा)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Gujarat">
+        <item>Ahmadabad(Ahmedabad) (अहमदाबाद(अहमदाबाद))</item>
+        <item>Narmada (नर्मदा)</item>
+        <item>Patan (पाटन)</item>
+        <item>Rajkot (राजकोट)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Haryana">
+        <item>Gurgaon (गुडगाँव)</item>
+        <item>Panipat (पानीपत)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Himachal_Pradesh">
+        <item>Shimla (शिमला)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Jammu_and_Kashmir">
+        <item>Jammu (जम्मू)</item>
+        <item>Srinagar (श्रीनगर)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Jharkhand">
+        <item>Bokaro (बोकारो)</item>
+        <item>Ranchi (रांची)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Karnataka">
+        <item>Bangalore (ಬೆಂಗಳೂರು)</item>
+        <item>Kolar (ಕೋಲಾರ್)</item>
+        <item>Mysore (ಮೈಸೂರು)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Kerala">
+        <item>Kollam (കൊല്ലം)</item>
+        <item>Malappuram (മലപ്പുറം)</item>
+        <item>Thiruvananthapuram (തിരുവനന്തപുരം)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Lakshadweep">
+        <item>Lakshadweep (लक्षद्वीप)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Madhya_Pradesh">
+        <item>Bhopal (भोपाल)</item>
+        <item>Indore (इंदौर)</item>
+        <item>Jabalpur (जबलपुर)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Maharashtra">
+        <item>Mumbai (मुंबई)</item>
+        <item>Pune (पुणे)</item>
+        <item>Nagpur (नागपुर)</item>
+        <item>Shridi (शिरडी)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Manipur">
+        <item>Imphal (इंफाल)</item>
+        <item>Thoubal (थौबल)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Meghalaya">
+        <item>Shillong (शिलांग)</item>
+        <item>Guwahati (गुवाहाटी)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Mizoram">
+        <item>Aizawl (आइजोल)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Nagaland">
+        <item>Kohima (कोहिमा)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Odisha">
+        <item>Bhubaneswar (भुवनेश्वर)</item>
+        <item>Sambalpur (संबलपुर)</item>
+        <item>Puri (पुरी)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Puducherry">
+        <item>Pondicherry (पांडिचेरी)</item>
+        <item>Yanam (यानम)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Punjab">
+        <item>Amritsar (अमृतसर)</item>
+        <item>Chandigarh (चंडीगढ़)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Rajasthan">
+        <item>Jaipur (जयपुर)</item>
+        <item>Udaipur (उदयपुर)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Sikkim">
+        <item>Gangtok (गंगटोक)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Tamil_Nadu">
+        <item>Chennai (சென்னை)</item>
+        <item>Madurai (மதுரை)</item>
+        <item>Coimbatore (கோயம்புத்தூர்)</item>
+        <item>Salem (சேலம்)</item>
+        <item>Thanjavur (தஞ்சாவூர்)</item>
+        <item>Vellore (வேலூர்)</item>
+        <item>Ooty (ஊட்டி)</item>
+        <item>Hosur (ஓசூர்)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Telangana">
+        <item>Hyderabad (హైదరాబాద్)</item>
+        <item>Warangal (వరంగల్)</item>
+        <item>Nalgonda (నల్గొండ)</item>
+        <item>Secunderabad (సికింద్రాబాద్)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Tripura">
+        <item>Agartala (अगरतला)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Uttar_Pradesh">
+        <item>Lucknow (अगरतला)</item>
+        <item>Agra (आगरा)</item>
+        <item>Kanpur (कानपुर)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Uttarkhand">
+        <item>Dehradun (देहरादून)</item>
+        <item>Badrinath (बद्रीनाथ)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="West_Bengal">
+        <item>Kolkata (कोलकाता)</item>
+        <item>Durgapur (दुर्गापुर)</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="Settings">
+        <item>À propos de nous</item>
+        <item>Contactez nous</item>
+        <item>Choisissez la langue</item>
+        <item>Changer le mot de passe</item>
+        <item>Retour d'information</item>
+        <item>Version</item>
+        <item>Déconnexion</item>
+    </string-array>
+    -------------------------------------------------
+    <string name="login_success">Connexion réussie</string>
+    <string name="Username">Email</string>
+    <string name="Password">Mot de passe</string>
+    <string name="forgot_your_password">Mot de passe oublié ?</string>
+    <string name="repeat_password">Répéter le mot de passe</string>
+    <string name="register">REGISTRE</string>
+    <string name="hint_username">Entrez un nouveau nom d\'utilisateur</string>
+    <string name="hint_email_reset">Entrer votre Email</string>
+    <string name="enter_group_name">Entrez le nom du groupe</string>
+    <string name="title_activity_portal_page">Page portail</string>
+    <string name="title_activity_other">Autre activité</string>
+    <string name="hcms_chat">HCMS Bavarder</string>
+    ------------------------------------------------
+    <string name="communicate">Communiquer</string>
+    <string name="daily_tips">Conseils quotidiens</string>
+    <string name="others">Autres</string>
+    -------------------------------------------------------
+    <string name="feedback2">S\'il vous plaît nous commenter en appuyant sur le bouton ou en haut à droite trois points</string>
+    <string name="feedback3">S\'il vous plaît n\'hésitez pas à nous commenter nous ...</string>
+    <string name="feedback_btn">Commentaires nous</string>
+    --------------------------------------------------------
+    ChatActivity
+    <string name="getting_all_users">Obtenir tous les utilisateurs ....</string>
+    <string name="add_user">Ajouter un utilisateur</string>
+    <string name="enter_user_email">Entrer l\'email de l\'utilisateur</string>
+    <string name="email_not_found">Email non trouvé</string>
+    <string name="finding_user">Trouver un utilisateur ...</string>
+    <string name="fail">Échouer</string>
+    <string name="email_not_valid">Email non valide</string>
+    <string name="false1">Faux</string>
+    <string name="false_to_add_user_account">Faux pour ajouter le succès de l\'utilisateur</string>
+    <string name="false_to_add_user_success">Faux pour ajouter le succès de l\'utilisateur</string>
+    <string name="success">Succès</string>
+    <string name="add_user_success">Ajouter le succès de l\'utilisateur</string>
+    <string name="delete_user">Supprimer l\'utilisateur</string>
+    <string name="delete_msg">Êtes-vous sûr de vouloir supprimer</string>
+    <string name="delete_msg1">Suppression ...</string>
+    <string name="error">Erreur</string>
+    <string name="error_msg">Une erreur s\'est produite lors de la suppression de l\'utilisateur.</string>
+    <string name="user_deleting_successfully">Utilisateur supprimant avec succès</string>
+    <string name="avatar">l\'avatar</string>
+    <string name="avatar_msg">Êtes-vous sûr de vouloir changer de profil d\'avatar?</string>
+    <string name="avatar_update">Avatar mise à jour ....</string>
+    <string name="avatar_update1">Mettre à jour l\'avatar avec succès!</string>
+    <string name="avatar_false">Faux pour mettre à jour l\'avatar</string>
+    <string name="edit_username">Modifier le nom d\'utilisateur</string>
+    <string name="save">sauvegarder</string>
+    <string name="cancel">Annuler</string>
+    <string name="reset_pswd">Êtes-vous sûr de vouloir réinitialiser le mot de passe?</string>
+    <string name="pswd_recovery">Récupération de mot de passe</string>
+    <string name="sent_email_to">Courriel envoyé à</string>
+    <string name="ok">D\'accord</string>
+    <string name="false_email">False to email envoyé à</string>
+    <string name="no_internet">Pas de connexion Internet</string>
+    <string name="no_internet_msg">Vous devez avoir Mobile Data ou wifi pour y accéder. Appuyez sur ok pour quitter</string>
+    <string name="prepare_alarm">Préparer l\'envoi d\'une notification ...:</string>
+    <string name="call_msg">Il n\'y a pas d\'application qui supporte cette action</string>
+    <string name="showing_nearby_hospital">Afficher les hôpitaux à proximité</string>
+    <string name="showing_nearby_medicalshops">Afficher les boutiques médicales à proximité</string>
+    <string name="hospitals_in_states_and_cities">Hôpitaux en ÉTATS et VILLES</string>
+    <string name="invalid_password">Email invalide ou mot de passe vide</string>
+    <string name="invalid_email">Email invalide</string>
+    <string name="register1">Enregistrement....</string>
+    <string name="register_false">Enregistrer faux</string>
+    <string name="email_exist_or_weak">Email existe ou mot de passe faible!</string>
+    <string name="register_and_login_success">Enregistrement et connexion réussie</string>
+    <string name="login1">S\'identifier....</string>
+    <string name="login_false">S\'identifier Faux</string>
+    <string name="email_not_exist_or_weak">Email n\'existe pas ou mot de passe erroné!</string>
+    <string name="sms">SMS:</string>
+    <string name="field_cant_be_empty">Le champ ne peut pas être vide</string>
+    <string name="msg_action">Vous n\'avez pas l\'autorisation requise pour effectuer l\'action</string>
+    <string name="invalid_email_or_password">Email invalide ou mot de passe ne correspond pas</string>
+    <string name="version_hcms">HCMS 1.0</string>
+    <string name="daily_tips1">Conseils santé quotidiens</string>
+    <string name="some_types_of_vitamins">Certains types de vitamines</string>
+    <string name="andaman_nicobar">Andaman and Nicobar Villes</string>
+    <string name="ap">Andhra Pradesh Villes</string>
+    <string name="arp">Arunachal Pradesh Villes</string>
+    <string name="assam">Assam Villes</string>
+    <string name="bihar">Bihar Villes</string>
+    <string name="chhattisgarh">Chhattisgarh Villes</string>
+    <string name="dadra">Dadra and Nagar Haveli Villes</string>
+    <string name="daman1">Daman and Diu Villes</string>
+    <string name="delhi">Delhi Villes</string>
+    <string name="goa">Goa Villes</string>
+    <string name="gujarat">Gujarat Villes</string>
+    <string name="haryana">Haryana Villes</string>
+    <string name="himachal">Himachal Pradesh Villes</string>
+    <string name="jammu1">Jammu and Kashmir Villes</string>
+    <string name="jharkhand">Jharkhand Villes</string>
+    <string name="karnataka">Karnataka Villes</string>
+    <string name="kerala">Kerala Villes</string>
+    <string name="lakshadweep">Lakshadweep Villes</string>
+    <string name="madhya">Madhya Pradesh Villes</string>
+    <string name="maharashtra">Maharashtra Villes</string>
+    <string name="manipur">Manipur Villes</string>
+    <string name="meghalaya">Meghalaya Villes</string>
+    <string name="mizoram">Mizoram Villes</string>
+    <string name="nagaland">Nagaland Villes</string>
+    <string name="odisha">Odisha Villes</string>
+    <string name="puducherry">Puducherry Villes</string>
+    <string name="punjab">Punjab Villes</string>
+    <string name="rajasthan">Rajasthan Villes</string>
+    <string name="sikkim">Sikkim Villes</string>
+    <string name="telangana">Telangana Villes</string>
+    <string name="tn">Tamil Nadu Villes</string>
+    <string name="tripura">Tripura Villes</string>
+    <string name="up">Uttar Pradesh Villes</string>
+    <string name="uttarakhand">Uttarakhand Villes</string>
+    <string name="wb">West Bengal Villes</string>
+    ----------------------------------------------------------------
+    ResetPassword
+    <string name="email_id">Entrez votre identifiant email enregistré</string>
+    <string name="reset_msg">Nous vous avons envoyé des instructions pour réinitialiser votre mot de passe!</string>
+    <string name="reset_msg1">Impossible d\'envoyer l\'email de réinitialisation!</string>
+    -----------------------------------------------------------------
+    <string name="name1">prénom</string>
+    <string name="blood_group">Groupe sanguin</string>
+    <string name="view">Vue</string>
+    <string name="msg">Message Pour Clarifier Les Doutes</string>
+    <string name="msg1">Ce message passera par l\'application Message normale</string>
+    <string name="call1">Appel à clarifier les doutes</string>
+    <string name="call2">Cela va appeler via App appel normal</string>
+    <string name="remedy1">Remède 1</string>
+    <string name="remedy2">Remède 2</string>
+    <string name="remedy3">Remède 3</string>
+    <string name="remedy4">Remède 4</string>
+    <string name="remedy5">Remède 5</string>
+    <string name="ginger">Jus de gingembre</string>
+    <string name="gargle">Thérapie gargarisme</string>
+    <string name="water">Eau</string>
+    <string name="herbal">Thé aux herbes</string>
+    <string name="turmeric">Safran des Indes</string>
+    <string name="diet1">Régime 1</string>
+    <string name="diet2">Régime 2</string>
+    <string name="diet3">Régime 3</string>
+    <string name="diet4">Régime 4</string>
+    <string name="face_mask1">Masque 1</string>
+    <string name="face_mask2">Masque 2</string>
+    <string name="face_mask3">Masque 3</string>
+    <string name="face_mask4">Masque 4</string>
+    <string name="face_mask5">Masque 5</string>
+    <string name="honey_lemon">Miel-citron</string>
+    <string name="lemon_juice">Jus de citron</string>
+    <string name="sample1">Échantillon 1</string>
+    <string name="sample2">Échantillon 2</string>
+    <string name="sample3">Échantillon 3</string>
+</resources>
