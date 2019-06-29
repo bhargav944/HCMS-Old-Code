@@ -49,7 +49,9 @@
                 android:gravity="start"
                 android:textSize="20sp"
                 android:inputType="phone"
-                android:id="@+id/idTxtPhoneNo"/>
+                android:id="@+id/idTxtPhoneNo"
+                android:drawableEnd="@drawable/mobile_vol"
+                android:drawableRight="@drawable/mobile_vol"/>
 
             <EditText
                 android:layout_width="match_parent"
@@ -60,7 +62,9 @@
                 android:layout_marginRight="10dp"
                 android:gravity="start"
                 android:textSize="20sp"
-                android:id="@+id/idTxtMsg"/>
+                android:id="@+id/idTxtMsg"
+                android:drawableEnd="@drawable/email_vol"
+                android:drawableRight="@drawable/email_vol"/>
 
             <Button
                 android:layout_width="wrap_content"

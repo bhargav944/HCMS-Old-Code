@@ -22,9 +22,9 @@
     <string name="name">G BHARGAV</string>
     <string name="text">Please Feel Free Us to Contact to clarify your doubts and improve your application status</string>
     <string name="email">Email</string>
-    <string name="emailid">g.bhargav2015@vit.ac.in</string>
+    <string name="emailid">bhargav.gurramkonda@gmail.com</string>
     <string name="contact1">Contact</string>
-    <string name="phone">7097034116</string>
+    <string name="phone">9492515352</string>
     <string name="password">Password</string>
     <string name="forgot_password">Forgot Password</string>
     <string name="link_to_register">Register Here</string>
@@ -685,48 +685,48 @@
     <string name="title_activity_alrm">Alarm</string>
     ---------------------------------------------------------
     <string-array name="States_and_Cities">
-        <item>Andaman and Nicobar Islands (अंडमान व नोकोबार द्वीप समूह)</item>
+        <item>Andaman and Nicobar Islands (আন্দামান ও নিকোবর আইল্যান্ডস)</item>
         <item>Andhra Pradesh (ఆంధ్రప్రదేశ్)</item>
-        <item>Arunachal Pradesh (अरुणाचल प्रदेश)</item>
-        <item>Assam (असम)</item>
+        <item>Arunachal Pradesh (অরুণাচল প্রদেশ)</item>
+        <item>Assam (অশাম)</item>
         <item>Bihar (बिहार)</item>
         <item>Chhattisgarh (छत्तीसगढ़)</item>
-        <item>Dadra and Nagar Haveli (दादरा और नगर हवेली)</item>
-        <item>Daman and Diu (दमन और दीव)</item>
+        <item>Dadra and Nagar Haveli (ડાદરા ાનદ ણાગાર Hાવેલિ)</item>
+        <item>Daman and Diu (ડામાન ાનદ ડિુ)</item>
         <item>Delhi (दिल्ली)</item>
-        <item>Goa (गोवा)</item>
-        <item>Gujarat (गुजरात)</item>
+        <item>Goa (घॊा)</item>
+        <item>Gujarat (ઙુજારાત)</item>
         <item>Haryana (हरयाणा)</item>
         <item>Himachal Pradesh (हिमाचल प्रदेश)</item>
-        <item>Jammu and Kashmir (जम्मू-कश्मीर)</item>
+        <item>Jammu and Kashmir (ژاممو اند خاسحمير)</item>
         <item>Jharkhand (झारखंड)</item>
         <item>Karnataka (ಕರ್ನಾಟಕ)</item>
         <item>Kerala (കേരളം)</item>
-        <item>Lakshadweep (लक्षद्वीप)</item>
+        <item>Lakshadweep (ല്‍ാകസഹാദവേപ)</item>
         <item>Madhya Pradesh (मध्य प्रदेश)</item>
         <item>Maharashtra (महाराष्ट्र)</item>
-        <item>Manipur (मणिपुर)</item>
-        <item>Meghalaya (मेघालय)</item>
-        <item>Mizoram (मिजोरम)</item>
+        <item>Manipur (Mानिपुर)</item>
+        <item>Meghalaya (Mেগহালায়া)</item>
+        <item>Mizoram (Mizoram)</item>
         <item>Nagaland (नगालैंड)</item>
-        <item>Odisha (ओडिशा)</item>
-        <item>Puducherry (पुडुचेरी)</item>
-        <item>Punjab (पंजाब)</item>
+        <item>Odisha (ଓଦିସହା)</item>
+        <item>Puducherry (Pுடுசஹெ்ரய)</item>
+        <item>Punjab (Pੁਨਜਾਬ)</item>
         <item>Rajasthan (राजस्थान)</item>
-        <item>Sikkim (सिक्किम)</item>
+        <item>Sikkim (शिखिम)</item>
         <item>Tamil Nadu (தமிழ்நாடு)</item>
         <item>Telangana (తెలంగాణ)</item>
-        <item>Tripura (त्रिपुरा)</item>
+        <item>Tripura (টরিপুরা)</item>
         <item>Uttar Pradesh (उत्तर प्रदेश)</item>
         <item>Uttarkhand (उत्तराखंड)</item>
-        <item>West Bengal (पश्चिम बंगाल)</item>
+        <item>West Bengal (Wেসত ভেনগাল)</item>
     </string-array>
     -------------------------------------------------
     <string-array name="Andaman">
-        <item>Port Blair (पोर्ट ब्लेयर)</item>
-        <item>Havelock Island (हवेलॉक द्वीप)</item>
-        <item>Neil Island (नील द्वीप)</item>
-        <item>Little Andaman (लिटिल अंडमान)</item>
+        <item>Port Blair (পোর্ট ব্লেয়ার)</item>
+        <item>Havelock Island (হাভেলক দ্বীপ)</item>
+        <item>Neil Island (নীল দ্বীপ)</item>
+        <item>Little Andaman (লিটল আন্দামান)</item>
     </string-array>
     ------------------------------------
     <string-array name="Andhra_Pradesh">
@@ -746,19 +746,19 @@
     </string-array>
     ---------------------------------------------
     <string-array name="Arunachal_Pradesh">
-        <item>Anjaw</item>
-        <item>Changlang (चांगलांग)</item>
-        <item>Dibang Valley (डिबांग घाटी)</item>
-        <item>East Kameng (पूर्वी कामेंग)</item>
-        <item>East Siang (पूर्वी सियांग)</item>
-        <item>Lohit (लोहित)</item>
-        <item>Tawang (तवांग)</item>
+        <item>Anjaw (Anjaw)</item>
+        <item>Changlang (Changlang)</item>
+        <item>Dibang Valley (দিবাং ভ্যালি)</item>
+        <item>East Kameng (পূর্ব কামেন)</item>
+        <item>East Siang (পূর্ব সিয়াং)</item>
+        <item>Lohit (লোহিত)</item>
+        <item>Tawang (Tawang)</item>
     </string-array>
     -------------------------------------------------
     <string-array name="Assam">
-        <item>Morigaon(Marigaon) (मोरीगांव(Marigaon))</item>
-        <item>Sonitpur (सोनितपुर)</item>
-        <item>Udalguri (उदलगुड़ी)</item>
+        <item>Morigaon(Marigaon) (Mোৰিগাোন(Mাৰিগাোন))</item>
+        <item>Sonitpur (শোনিতপুৰ)</item>
+        <item>Udalguri (উদালগুৰি)</item>
     </string-array>
     -------------------------------------------------
     <string-array name="Bihar">
@@ -775,12 +775,12 @@
     </string-array>
     -------------------------------------------------
     <string-array name="Dadra_and_Nagar_Haveli">
-        <item>Dadra and Nagar Haveli (दादरा और नगर हवेली)</item>
+        <item>Dadra and Nagar Haveli (ડાદરા ાનદ ણાગાર Hાવેલિ)</item>
     </string-array>
     -------------------------------------------------
     <string-array name="Daman_and_Diu">
-        <item>Daman (दमन)</item>
-        <item>Diu (दीव)</item>
+        <item>Daman (ડામાન)</item>
+        <item>Diu (ડિુ)</item>
     </string-array>
     -------------------------------------------------
     <string-array name="Delhi">
@@ -788,15 +788,15 @@
     </string-array>
     -------------------------------------------------
     <string-array name="Goa">
-        <item>North Goa (उत्तर गोवा)</item>
-        <item>South Goa (दक्षिण गोवा)</item>
+        <item>North Goa (णॊरतह घॊा)</item>
+        <item>South Goa (शॊुतह घॊा)</item>
     </string-array>
     -------------------------------------------------
     <string-array name="Gujarat">
-        <item>Ahmadabad(Ahmedabad) (अहमदाबाद(अहमदाबाद))</item>
-        <item>Narmada (नर्मदा)</item>
-        <item>Patan (पाटन)</item>
-        <item>Rajkot (राजकोट)</item>
+        <item>Ahmadabad(Ahmedabad) (અહમાદાબાદ(અહમેદાબાદ))</item>
+        <item>Narmada (ણારમાદા)</item>
+        <item>Patan (Pાતાન)</item>
+        <item>Rajkot (ઋાજકોત)</item>
     </string-array>
     -------------------------------------------------
     <string-array name="Haryana">
@@ -809,8 +809,8 @@
     </string-array>
     -------------------------------------------------
     <string-array name="Jammu_and_Kashmir">
-        <item>Jammu (जम्मू)</item>
-        <item>Srinagar (श्रीनगर)</item>
+        <item>Jammu (ژاممو)</item>
+        <item>Srinagar (صريناگار)</item>
     </string-array>
     -------------------------------------------------
     <string-array name="Jharkhand">
@@ -831,7 +831,7 @@
     </string-array>
     -------------------------------------------------
     <string-array name="Lakshadweep">
-        <item>Lakshadweep (लक्षद्वीप)</item>
+        <item>Lakshadweep (ല്‍ാകസഹാദവേപ)</item>
     </string-array>
     -------------------------------------------------
     <string-array name="Madhya_Pradesh">
@@ -848,17 +848,17 @@
     </string-array>
     -------------------------------------------------
     <string-array name="Manipur">
-        <item>Imphal (इंफाल)</item>
-        <item>Thoubal (थौबल)</item>
+        <item>Imphal (इमपहाल)</item>
+        <item>Thoubal (टहोुबाल)</item>
     </string-array>
     -------------------------------------------------
     <string-array name="Meghalaya">
-        <item>Shillong (शिलांग)</item>
-        <item>Guwahati (गुवाहाटी)</item>
+        <item>Shillong (শহিঌোনগ)</item>
+        <item>Guwahati (ঘুবাহাতি)</item>
     </string-array>
     -------------------------------------------------
     <string-array name="Mizoram">
-        <item>Aizawl (आइजोल)</item>
+        <item>Aizawl (Aizawl)</item>
     </string-array>
     -------------------------------------------------
     <string-array name="Nagaland">
@@ -866,19 +866,19 @@
     </string-array>
     -------------------------------------------------
     <string-array name="Odisha">
-        <item>Bhubaneswar (भुवनेश्वर)</item>
-        <item>Sambalpur (संबलपुर)</item>
-        <item>Puri (पुरी)</item>
+        <item>Bhubaneswar (ଭହୁବାନେସୱାର)</item>
+        <item>Sambalpur (ଶାମବାଲପୁର)</item>
+        <item>Puri (Pୁରି)</item>
     </string-array>
     -------------------------------------------------
     <string-array name="Puducherry">
-        <item>Pondicherry (पांडिचेरी)</item>
-        <item>Yanam (यानम)</item>
+        <item>Pondicherry (Pொநடிசஹெ்ரய)</item>
+        <item>Yanam (ஞாநாம)</item>
     </string-array>
     -------------------------------------------------
     <string-array name="Punjab">
-        <item>Amritsar (अमृतसर)</item>
-        <item>Chandigarh (चंडीगढ़)</item>
+        <item>Amritsar (ਅਮਰਿਤਸਾਰ)</item>
+        <item>Chandigarh (ਛਹਾਨਦਿਗਾਰਹ)</item>
     </string-array>
     -------------------------------------------------
     <string-array name="Rajasthan">
@@ -887,7 +887,7 @@
     </string-array>
     -------------------------------------------------
     <string-array name="Sikkim">
-        <item>Gangtok (गंगटोक)</item>
+        <item>Gangtok (घानगतोक)</item>
     </string-array>
     -------------------------------------------------
     <string-array name="Tamil_Nadu">
@@ -909,7 +909,7 @@
     </string-array>
     -------------------------------------------------
     <string-array name="Tripura">
-        <item>Agartala (अगरतला)</item>
+        <item>Agartala (অগারতালা)</item>
     </string-array>
     -------------------------------------------------
     <string-array name="Uttar_Pradesh">
@@ -924,8 +924,8 @@
     </string-array>
     -------------------------------------------------
     <string-array name="West_Bengal">
-        <item>Kolkata (कोलकाता)</item>
-        <item>Durgapur (दुर्गापुर)</item>
+        <item>Kolkata (খোলকাতা)</item>
+        <item>Durgapur (ডুরগাপুর)</item>
     </string-array>
     -------------------------------------------------
     <string-array name="Settings">

@@ -108,6 +108,7 @@ public class Doctor extends AppCompatActivity
                 viewHolder.setHosp(model.getHosp());
                 viewHolder.setDesi(model.getDesi());
                 viewHolder.setGen(model.getGen());
+                viewHolder.setEmail(model.getEmail());
                 viewHolder.setImage(getBaseContext(), model.getImage());
             }
         };
@@ -136,6 +137,11 @@ public class Doctor extends AppCompatActivity
             TextView doctor_desi = (TextView) mView.findViewById(R.id.doctor_desi);
             doctor_desi.setText(desi);
         }
+        public void setEmail(String email)
+        {
+            TextView doctor_email = (TextView) mView.findViewById(R.id.doctor_email);
+            doctor_email.setText(email);
+        }
         public void setGen(String gen)
         {
             TextView gender = (TextView) mView.findViewById(R.id.gender);
@@ -157,11 +163,6 @@ public class Doctor extends AppCompatActivity
         }
     }
 
-    public void settings(View v) {
-        Intent i = new Intent(Doctor.this,Settings.class);
-        startActivity(i);
-    }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -181,12 +182,9 @@ public class Doctor extends AppCompatActivity
             Intent i = new Intent(Doctor.this,Settings.class);
             startActivity(i);
         }
-        if (id == R.id.logout) {
-            FirebaseAuth.getInstance().signOut();
-            Intent intent = new Intent(Doctor.this, LoginActivity.class);
-            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            startActivity(intent);
-            finish();
+        if (id == R.id.feedback) {
+            Intent i = new Intent(Doctor.this,Feedback.class);
+            startActivity(i);
         }
 
         return super.onOptionsItemSelected(item);
@@ -200,9 +198,6 @@ public class Doctor extends AppCompatActivity
 
         if (id == R.id.nav_livechat) {
             Intent i = new Intent(Doctor.this,PortalPage.class);
-            startActivity(i);
-        } else if (id == R.id.nav_admin) {
-            Intent i = new Intent(Doctor.this,Admin.class);
             startActivity(i);
         } else if (id == R.id.nav_doctor) {
             Intent i = new Intent(Doctor.this,Doctor.class);
@@ -234,9 +229,15 @@ public class Doctor extends AppCompatActivity
         } else if (id == R.id.nav_alarm) {
             Intent i = new Intent(Doctor.this,Alrm.class);
             startActivity(i);
-        } else if (id == R.id.nav_feedback) {
-            Intent i = new Intent(Doctor.this,Feedback.class);
+        } else if (id == R.id.nav_settings) {
+            Intent i = new Intent(Doctor.this,Settings.class);
             startActivity(i);
+        } else if (id == R.id.nav_logout) {
+            FirebaseAuth.getInstance().signOut();
+            Intent intent = new Intent(Doctor.this, LoginActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(intent);
+            finish();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

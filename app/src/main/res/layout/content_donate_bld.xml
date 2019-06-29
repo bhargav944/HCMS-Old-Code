@@ -10,36 +10,41 @@
     android:paddingTop="65dp"
     tools:context=".DonateBld">
 
+    <ScrollView android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:id="@+id/etname"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:hint="@string/name1" />
+        android:layout_gravity="center"
+        android:hint="@string/name1"
+        android:drawableEnd="@drawable/fullname_vol"
+        android:drawableRight="@drawable/fullname_vol"/>
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
-        android:layout_below="@+id/etname"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
         android:layout_marginTop="12dp"
         android:id="@+id/eemail"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:hint="@string/email" />
+        android:hint="@string/email"
+        android:drawableEnd="@drawable/userid_vol"
+        android:drawableRight="@drawable/userid_vol"/>
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="phone"
         android:ems="10"
@@ -50,10 +55,12 @@
         android:id="@+id/eaddress"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:hint="@string/phoneno" />
+        android:hint="@string/phoneno"
+        android:drawableEnd="@drawable/mobile_vol"
+        android:drawableRight="@drawable/mobile_vol"/>
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text"
         android:ems="10"
@@ -64,7 +71,9 @@
         android:id="@+id/eblood"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:hint="@string/blood_group"/>
+        android:hint="@string/blood_group"
+        android:drawableEnd="@drawable/blood"
+        android:drawableRight="@drawable/blood"/>
 
 
     <Button
@@ -74,10 +83,7 @@
         android:layout_marginTop="14dp"
         android:id="@+id/save"
         android:layout_below="@+id/eblood"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_gravity="center"/>
 
     <Button
         android:text="@string/view"
@@ -86,10 +92,8 @@
         android:id="@+id/view"
         android:layout_marginTop="12dp"
         android:layout_below="@+id/save"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"/>
 
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
@@ -97,9 +101,11 @@
         android:id="@+id/rview"
         android:layout_below="@+id/view">
 
-
-
     </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+    </ScrollView>
 
 
 </RelativeLayout>

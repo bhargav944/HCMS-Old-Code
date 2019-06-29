@@ -164,11 +164,6 @@ public class Calls extends AppCompatActivity
         }
     }
 
-    public void settings(View v) {
-        Intent i = new Intent(Calls.this,Settings.class);
-        startActivity(i);
-    }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -188,12 +183,9 @@ public class Calls extends AppCompatActivity
             Intent i = new Intent(Calls.this,Settings.class);
             startActivity(i);
         }
-        if (id == R.id.logout) {
-            FirebaseAuth.getInstance().signOut();
-            Intent intent = new Intent(Calls.this, LoginActivity.class);
-            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            startActivity(intent);
-            finish();
+        if (id == R.id.feedback) {
+            Intent i = new Intent(Calls.this,Feedback.class);
+            startActivity(i);
         }
 
         return super.onOptionsItemSelected(item);
@@ -207,9 +199,6 @@ public class Calls extends AppCompatActivity
 
         if (id == R.id.nav_livechat) {
             Intent i = new Intent(Calls.this,PortalPage.class);
-            startActivity(i);
-        } else if (id == R.id.nav_admin) {
-            Intent i = new Intent(Calls.this,Admin.class);
             startActivity(i);
         } else if (id == R.id.nav_doctor) {
             Intent i = new Intent(Calls.this,Doctor.class);
@@ -241,9 +230,15 @@ public class Calls extends AppCompatActivity
         } else if (id == R.id.nav_alarm) {
             Intent i = new Intent(Calls.this,Alrm.class);
             startActivity(i);
-        } else if (id == R.id.nav_feedback) {
-            Intent i = new Intent(Calls.this,Feedback.class);
+        } else if (id == R.id.nav_settings) {
+            Intent i = new Intent(Calls.this,Settings.class);
             startActivity(i);
+        } else if (id == R.id.nav_logout) {
+            FirebaseAuth.getInstance().signOut();
+            Intent intent = new Intent(Calls.this, LoginActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(intent);
+            finish();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

@@ -47,7 +47,9 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
                 android:hint="@string/phoneno"
-                android:textSize="25sp" />
+                android:textSize="25sp"
+                android:drawableEnd="@drawable/mobile_vol"
+                android:drawableRight="@drawable/mobile_vol"/>
 
             <Button
                 android:id="@+id/idbtnCall"

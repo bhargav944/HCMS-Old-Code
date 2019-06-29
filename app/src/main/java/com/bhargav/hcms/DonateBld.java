@@ -49,7 +49,7 @@ public class DonateBld extends AppCompatActivity
 
         if(!isConnected(DonateBld.this)) buildDialog(DonateBld.this).show();
         else {
-            Toast.makeText(DonateBld.this,R.string.blooddonation_me, Toast.LENGTH_SHORT).show();
+            Toast.makeText(DonateBld.this, R.string.blooddonation_me, Toast.LENGTH_SHORT).show();
             setContentView(R.layout.activity_donate_bld);
         }
 
@@ -191,11 +191,6 @@ public class DonateBld extends AppCompatActivity
         }
     }
 
-    public void settings(View v) {
-        Intent i = new Intent(DonateBld.this,Settings.class);
-        startActivity(i);
-    }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -215,12 +210,9 @@ public class DonateBld extends AppCompatActivity
             Intent i = new Intent(DonateBld.this,Settings.class);
             startActivity(i);
         }
-        if (id == R.id.logout) {
-            FirebaseAuth.getInstance().signOut();
-            Intent intent = new Intent(DonateBld.this, LoginActivity.class);
-            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            startActivity(intent);
-            finish();
+        if (id == R.id.feedback) {
+            Intent i = new Intent(DonateBld.this,Feedback.class);
+            startActivity(i);
         }
 
         return super.onOptionsItemSelected(item);
@@ -234,9 +226,6 @@ public class DonateBld extends AppCompatActivity
 
         if (id == R.id.nav_livechat) {
             Intent i = new Intent(DonateBld.this,PortalPage.class);
-            startActivity(i);
-        } else if (id == R.id.nav_admin) {
-            Intent i = new Intent(DonateBld.this,Admin.class);
             startActivity(i);
         } else if (id == R.id.nav_doctor) {
             Intent i = new Intent(DonateBld.this,Doctor.class);
@@ -268,9 +257,15 @@ public class DonateBld extends AppCompatActivity
         } else if (id == R.id.nav_alarm) {
             Intent i = new Intent(DonateBld.this,Alrm.class);
             startActivity(i);
-        } else if (id == R.id.nav_feedback) {
-            Intent i = new Intent(DonateBld.this,Feedback.class);
+        } else if (id == R.id.nav_settings) {
+            Intent i = new Intent(DonateBld.this,Settings.class);
             startActivity(i);
+        } else if (id == R.id.nav_logout) {
+            FirebaseAuth.getInstance().signOut();
+            Intent intent = new Intent(DonateBld.this, LoginActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(intent);
+            finish();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

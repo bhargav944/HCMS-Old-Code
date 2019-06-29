@@ -10,7 +10,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="248dp"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:background="#ffff">
 
@@ -26,7 +26,9 @@
             android:id="@+id/post_title"
             android:text="POST TITLE"
             android:textSize="20dp"
-            android:textColor="#121111"/>
+            android:textColor="#121111"
+            android:drawableEnd="@drawable/hospital"
+            android:drawableRight="@drawable/hospital"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -34,7 +36,9 @@
             android:id="@+id/post_desc"
             android:textSize="15dp"
             android:text="POST DESC"
-            android:textColor="#121111"/>
+            android:textColor="#121111"
+            android:drawableEnd="@drawable/address_communicate"
+            android:drawableRight="@drawable/address_communicate"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -42,7 +46,9 @@
             android:id="@+id/phone_no"
             android:text="Phone No"
             android:textSize="15dp"
-            android:textColor="#121111"/>
+            android:textColor="#121111"
+            android:drawableEnd="@drawable/mobile_vol"
+            android:drawableRight="@drawable/mobile_vol"/>
     </LinearLayout>
 
 </android.support.v7.widget.CardView>

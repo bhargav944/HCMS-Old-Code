@@ -1,71 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     app:cardCornerRadius="12dp"
     android:layout_margin="7dp"
-    android:elevation="90dp">
+    android:elevation="90dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:background="#ffffff">
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/rounded_corner2">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/doctor_name"
             android:text="Doctor Name"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp"
-            android:textSize="16sp"
-            android:textColor="#000000"/>
+            android:layout_marginRight="10dp"
+            android:layout_gravity="end"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
 
         <TextView
-            android:id="@+id/hos_name"
-            android:layout_marginTop="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/doctor_name"
-            android:layout_alignStart="@+id/doctor_name"
-            android:layout_below="@+id/doctor_name"
-            android:text="Hospital Name"
+            android:id="@+id/gender"
+            android:text="Gender"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="end"
             android:textSize="16sp"
             android:textColor="#000000" />
 
         <TextView
-            android:id="@+id/doctor_desi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/hos_name"
+            android:text="Hospital Name"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="end"
             android:layout_marginTop="5dp"
-            android:text="Designation"
-            android:textSize="14sp"
-            android:textColor="#000000"
-            android:layout_below="@+id/hos_name"
-            android:layout_alignStart="@+id/hos_name" />
+            android:textSize="16sp"
+            android:textColor="#000000" />
 
         <TextView
-            android:id="@+id/gender"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Gender"
-            android:textSize="16sp"
-            android:textColor="#000000"
+            android:id="@+id/doctor_desi"
+            android:text="Designation"
             android:layout_marginTop="5dp"
-            android:layout_below="@+id/doctor_desi"
-            android:layout_alignStart="@+id/doctor_desi" />
+            android:layout_marginRight="10dp"
+            android:layout_gravity="end"
+            android:textSize="16sp"
+            android:textColor="#000000" />
 
-        <ImageView
-            android:layout_width="140dp"
-            android:layout_height="120dp"
-            android:scaleType="centerCrop"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_margin="10dp"
-            android:id="@+id/doctor_image"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/doctor_email"
+            android:text="Email"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="end"
+            android:textSize="16sp"
+            android:textColor="#000000" />
 
-    </RelativeLayout>
+    </LinearLayout>
 
-</android.support.v7.widget.CardView>
+    <de.hdodenhof.circleimageview.CircleImageView
+        app:civ_border_color="#2F4F4F"
+        app:civ_border_width="2dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/doctor_image"
+        android:src="@drawable/hcms"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</RelativeLayout>

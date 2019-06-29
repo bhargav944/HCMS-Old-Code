@@ -43,7 +43,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="5dp"
                 android:orientation="horizontal"
                 android:paddingEnd="30dp"
                 android:paddingStart="50dp">
@@ -60,10 +60,12 @@
                         android:background="@drawable/selector_bg_edit"
                         android:hint="@string/Username"
                         android:inputType="textEmailAddress"
-                        android:paddingBottom="2dp"
+                        android:paddingBottom="10dp"
                         android:textColor="#2fa881"
                         android:textCursorDrawable="@drawable/bg_input_cursor"
-                        android:textSize="13sp" />
+                        android:textSize="13sp"
+                        android:drawableEnd="@drawable/userid_vol"
+                        android:drawableRight="@drawable/userid_vol"/>
                 </android.support.design.widget.TextInputLayout>
             </LinearLayout>
 

@@ -70,7 +70,7 @@ public class Hospital extends AppCompatActivity
 
         if(!isConnected(Hospital.this)) buildDialog(Hospital.this).show();
         else {
-            Toast.makeText(Hospital.this,R.string.hospitals_in_states_and_cities, Toast.LENGTH_SHORT).show();
+            Toast.makeText(Hospital.this, R.string.hospitals_in_states_and_cities, Toast.LENGTH_SHORT).show();
             setContentView(R.layout.activity_hospital);
         }
 
@@ -290,11 +290,6 @@ public class Hospital extends AppCompatActivity
         }
     }
 
-    public void settings(View v) {
-        Intent i = new Intent(Hospital.this,Settings.class);
-        startActivity(i);
-    }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_search, menu);
@@ -332,12 +327,9 @@ public class Hospital extends AppCompatActivity
             Intent i = new Intent(Hospital.this,Settings.class);
             startActivity(i);
         }
-        if (id == R.id.logout) {
-            FirebaseAuth.getInstance().signOut();
-            Intent intent = new Intent(Hospital.this, LoginActivity.class);
-            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            startActivity(intent);
-            finish();
+        if (id == R.id.feedback) {
+            Intent i = new Intent(Hospital.this,Feedback.class);
+            startActivity(i);
         }
 
         return super.onOptionsItemSelected(item);
@@ -351,9 +343,6 @@ public class Hospital extends AppCompatActivity
 
         if (id == R.id.nav_livechat) {
             Intent i = new Intent(Hospital.this,PortalPage.class);
-            startActivity(i);
-        } else if (id == R.id.nav_admin) {
-            Intent i = new Intent(Hospital.this,Admin.class);
             startActivity(i);
         } else if (id == R.id.nav_doctor) {
             Intent i = new Intent(Hospital.this,Doctor.class);
@@ -385,9 +374,15 @@ public class Hospital extends AppCompatActivity
         } else if (id == R.id.nav_alarm) {
             Intent i = new Intent(Hospital.this,Alrm.class);
             startActivity(i);
-        } else if (id == R.id.nav_feedback) {
-            Intent i = new Intent(Hospital.this,Feedback.class);
+        } else if (id == R.id.nav_settings) {
+            Intent i = new Intent(Hospital.this,Settings.class);
             startActivity(i);
+        } else if (id == R.id.nav_logout) {
+            FirebaseAuth.getInstance().signOut();
+            Intent intent = new Intent(Hospital.this, LoginActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(intent);
+            finish();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

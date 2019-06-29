@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -14,48 +13,65 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class Feedback extends AppCompatActivity {
 
+    EditText editTextTo,editTextSubject,editTextMessage;
+    Button send;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feedback);
 
-        Button button = (Button) findViewById(R.id.feedback);
-
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        button.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                Intent Email = new Intent(Intent.ACTION_SEND);
-                Email.setType("text/email");
-                Email.putExtra(Intent.EXTRA_EMAIL, new String[] { "bhargav.gurramkonda@gmail.com" });
-                Email.putExtra(Intent.EXTRA_SUBJECT, "Feedback HCMS");
-                Email.putExtra(Intent.EXTRA_TEXT, "Dear ...," + "");
-                startActivity(Intent.createChooser(Email, "Send Feedback:"));
+        editTextTo=(EditText)findViewById(R.id.editText1);
+        editTextSubject=(EditText)findViewById(R.id.editText2);
+        editTextMessage=(EditText)findViewById(R.id.editText3);
+
+        send=(Button)findViewById(R.id.button1);
+
+        send.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View arg0) {
+                String to=editTextTo.getText().toString();
+                String subject=editTextSubject.getText().toString();
+                String message=editTextMessage.getText().toString();
+
+
+                Intent email = new Intent(Intent.ACTION_SEND);
+                email.putExtra(Intent.EXTRA_EMAIL, new String[]{ to});
+                email.putExtra(Intent.EXTRA_SUBJECT, subject);
+                email.putExtra(Intent.EXTRA_TEXT, message);
+
+                //need this to prompts email client only
+                email.setType("message/rfc822");
+
+                startActivity(Intent.createChooser(email, "Choose an Email client :"));
             }
+
         });
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu){
-        super.onCreateOptionsMenu(menu);
-        MenuInflater hardwaremenu = getMenuInflater();
-        hardwaremenu.inflate(R.menu.main_menu, menu);
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_settings, menu);
         return true;
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item){
+    public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        switch (item.getItemId()){
-            case R.id.sendEmail:
-                Intent Email = new Intent(Intent.ACTION_SEND);
-                Email.setType("text/email");
-                Email.putExtra(Intent.EXTRA_EMAIL, new String[] { "bhargav.gurramkonda@gmail.com" });
-                Email.putExtra(Intent.EXTRA_SUBJECT, "Feedback HCMS");
-                Email.putExtra(Intent.EXTRA_TEXT, "Dear ...," + "");
-                startActivity(Intent.createChooser(Email, "Send Feedback:"));
-                return true;
+        if (id == R.id.title1) {
+            Intent i = new Intent(Feedback.this, PortalPage.class);
+            startActivity(i);
+        }
+        if (id == R.id.title2) {
+            FirebaseAuth.getInstance().signOut();
+            Intent intent = new Intent(Feedback.this, LoginActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(intent);
+            finish();
         }
         if (id == android.R.id.home) {
             this.finish();

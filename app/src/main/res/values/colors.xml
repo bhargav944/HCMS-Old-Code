@@ -47,4 +47,7 @@
     </array>
 
     <color name="black_overlay">#66000000</color>
+    <color name="gradient_start_color">#4c84ff</color>
+    <color name="intro_title_color">#000000</color>
+    <color name="salmon_main">#FA8072</color>
 </resources>

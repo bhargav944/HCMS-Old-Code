@@ -11,13 +11,16 @@ public class Blogs {
     private String desi;
     private String gender;
     private String image;
+    private String email;
 
-    public Blogs(String doctor, String hosp, String desi, String gender, String image) {
+
+    public Blogs(String doctor, String hosp, String desi, String gender, String image,String email) {
         this.doctor = doctor;
         this.hosp = hosp;
         this.desi = desi;
         this.gender = gender;
         this.image = image;
+        this.email = email;
     }
 
     public String getDoctor() {
@@ -50,13 +53,13 @@ public class Blogs {
 
     public void setGen(String gender) { this.gender = gender; }
 
-    public String getImage() {
-        return image;
-    }
+    public String getImage() { return image; }
 
-    public void setImage(String image) {
-        this.image = image;
-    }
+    public void setImage(String image) { this.image = image; }
+
+    public String getEmail() { return email; }
+
+    public void setEmail(String email) { this.email = email; }
 
     public Blogs() {
 

@@ -65,7 +65,7 @@ public class UserProfileFragment extends Fragment {
 
     private static final String USERNAME_LABEL = "Username";
     private static final String EMAIL_LABEL = "Email";
-    private static final String SIGNOUT_LABEL = "Sign out";
+    private static final String SIGNOUT_LABEL = "Logout";
     private static final String RESETPASS_LABEL = "Change Password";
 
     private static final int PICK_IMAGE = 1994;

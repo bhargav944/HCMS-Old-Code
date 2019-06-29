@@ -90,7 +90,7 @@ public class GoogleMap extends AppCompatActivity
             case REQUEST_LOCATION_CODE:
                 if(grantResults.length >0 && grantResults[0] == PackageManager.PERMISSION_GRANTED)
                 {
-                    if(ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) !=  PackageManager.PERMISSION_GRANTED)
+                    if(ContextCompat.checkSelfPermission(this,Manifest.permission.ACCESS_FINE_LOCATION) !=  PackageManager.PERMISSION_GRANTED)
                     {
                         if(client == null)
                         {
@@ -106,15 +106,6 @@ public class GoogleMap extends AppCompatActivity
         }
     }
 
-    /**
-     * Manipulates the map once available.
-     * This callback is triggered when the map is ready to be used.
-     * This is where we can add markers or lines, add listeners or move the camera. In this case,
-     * we just add a marker near Sydney, Australia.
-     * If Google Play services is not installed on the device, the user will be prompted to install
-     * it inside the SupportMapFragment. This method will only be triggered once the user has
-     * installed Google Play services and returned to the app.
-     */
     @Override
     public void onMapReady(com.google.android.gms.maps.GoogleMap googleMap) {
         mMap = googleMap;
@@ -207,12 +198,12 @@ public class GoogleMap extends AppCompatActivity
                 getNearbyPlacesData.execute(dataTransfer);
                 Toast.makeText(GoogleMap.this, R.string.showing_nearby_hospital, Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.B_to:
+            case R.id.B_pharmacy:
                 mMap.clear();
-                String medical = "hospital";
-                String ur2 = getUrl(latitude, longitude, medical);
+                String medical = "Pharmacy";
+                String url1 = getUrl(latitude, longitude, medical);
                 dataTransfer[0] = mMap;
-                dataTransfer[1] = ur2;
+                dataTransfer[1] = url1;
 
                 getNearbyPlacesData.execute(dataTransfer);
                 Toast.makeText(GoogleMap.this, R.string.showing_nearby_medicalshops, Toast.LENGTH_SHORT).show();
@@ -232,6 +223,7 @@ public class GoogleMap extends AppCompatActivity
         googlePlaceUrl.append("&key="+"AIzaSyBLEPBRfw7sMb73Mr88L91Jqh3tuE4mKsE");
 
         Log.d("MapsActivity", "url = "+googlePlaceUrl.toString());
+        Log.d("MapsActivity", "url1 = "+googlePlaceUrl.toString());
 
         return googlePlaceUrl.toString();
     }
@@ -291,11 +283,6 @@ public class GoogleMap extends AppCompatActivity
         }
     }
 
-    public void settings(View v) {
-        Intent i = new Intent(GoogleMap.this,Settings.class);
-        startActivity(i);
-    }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -315,12 +302,9 @@ public class GoogleMap extends AppCompatActivity
             Intent i = new Intent(GoogleMap.this,Settings.class);
             startActivity(i);
         }
-        if (id == R.id.logout) {
-            FirebaseAuth.getInstance().signOut();
-            Intent intent = new Intent(GoogleMap.this, LoginActivity.class);
-            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            startActivity(intent);
-            finish();
+        if (id == R.id.feedback) {
+            Intent i = new Intent(GoogleMap.this,Feedback.class);
+            startActivity(i);
         }
 
         return super.onOptionsItemSelected(item);
@@ -334,9 +318,6 @@ public class GoogleMap extends AppCompatActivity
 
         if (id == R.id.nav_livechat) {
             Intent i = new Intent(GoogleMap.this,PortalPage.class);
-            startActivity(i);
-        } else if (id == R.id.nav_admin) {
-            Intent i = new Intent(GoogleMap.this,Admin.class);
             startActivity(i);
         } else if (id == R.id.nav_doctor) {
             Intent i = new Intent(GoogleMap.this,Doctor.class);
@@ -368,9 +349,15 @@ public class GoogleMap extends AppCompatActivity
         } else if (id == R.id.nav_alarm) {
             Intent i = new Intent(GoogleMap.this,Alrm.class);
             startActivity(i);
-        } else if (id == R.id.nav_feedback) {
-            Intent i = new Intent(GoogleMap.this,Feedback.class);
+        } else if (id == R.id.nav_settings) {
+            Intent i = new Intent(GoogleMap.this,Settings.class);
             startActivity(i);
+        } else if (id == R.id.nav_logout) {
+            FirebaseAuth.getInstance().signOut();
+            Intent intent = new Intent(GoogleMap.this, LoginActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(intent);
+            finish();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
