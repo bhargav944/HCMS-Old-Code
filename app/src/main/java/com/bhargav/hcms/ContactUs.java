@@ -93,23 +93,9 @@ public class ContactUs extends AppCompatActivity {
             Intent i = new Intent(ContactUs.this, Feedback.class);
             startActivity(i);
         }
-        if (id == R.id.title4) {
-            FirebaseAuth.getInstance().signOut();
-            Intent intent = new Intent(ContactUs.this, LoginActivity.class);
-            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            startActivity(intent);
-            finish();
-        }
         if (id== R.id.title15){
             Intent i = new Intent(ContactUs.this,PortalPage.class);
             startActivity(i);
-        }
-        if (id== R.id.title16){
-            FirebaseAuth.getInstance().signOut();
-            Intent intent = new Intent(ContactUs.this, LoginActivity.class);
-            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            startActivity(intent);
-            finish();
         }
         if (id == android.R.id.home) {
             this.finish();

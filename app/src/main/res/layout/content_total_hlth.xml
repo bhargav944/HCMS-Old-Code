@@ -676,7 +676,7 @@
                     android:layout_width="60dp"
                     android:layout_height="70dp"
                     android:layout_marginTop="20dp"
-                    android:src="@drawable/stomach_ache"
+                    android:src="@drawable/stomachache"
                     android:onClick="stomachache"
                     android:textStyle="bold" />
 

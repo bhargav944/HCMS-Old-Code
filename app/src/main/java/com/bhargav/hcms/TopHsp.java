@@ -53,6 +53,8 @@ public class TopHsp extends AppCompatActivity
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Top Hospitals");
+        getSupportActionBar().setIcon(getDrawable(R.drawable.tophospital));
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -172,9 +174,12 @@ public class TopHsp extends AppCompatActivity
             Intent i = new Intent(TopHsp.this,Settings.class);
             startActivity(i);
         }
-        if (id == R.id.feedback) {
-            Intent i = new Intent(TopHsp.this,Feedback.class);
-            startActivity(i);
+        if (id == R.id.logout) {
+            FirebaseAuth.getInstance().signOut();
+            Intent intent = new Intent(TopHsp.this, LoginActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(intent);
+            finish();
         }
 
         return super.onOptionsItemSelected(item);

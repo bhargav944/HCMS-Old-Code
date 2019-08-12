@@ -55,6 +55,7 @@ public class PortalPage extends AppCompatActivity
         if(toolbar != null) {
             setSupportActionBar(toolbar);
             getSupportActionBar().setTitle(R.string.hcms_chat);
+            getSupportActionBar().setIcon(getDrawable(R.drawable.livechat));
         }
 
         viewPager = (ViewPager) findViewById(R.id.viewpager);
@@ -167,7 +168,7 @@ public class PortalPage extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.portal_page, menu);
+        getMenuInflater().inflate(R.menu.activity_hcms_chat, menu);
         return true;
     }
 
@@ -183,9 +184,12 @@ public class PortalPage extends AppCompatActivity
             Intent i = new Intent(PortalPage.this,Settings.class);
             startActivity(i);
         }
-        if (id == R.id.feedback) {
-            Intent i = new Intent(PortalPage.this,Feedback.class);
-            startActivity(i);
+        if (id == R.id.logout) {
+            FirebaseAuth.getInstance().signOut();
+            Intent intent = new Intent(PortalPage.this, LoginActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(intent);
+            finish();
         }
 
         return super.onOptionsItemSelected(item);

@@ -679,7 +679,7 @@
     <string name="title_activity_msg">Message</string>
     <string name="title_activity_calls">Call</string>
     <string name="title_activity_vitamin">Vitamin</string>
-    <string name="title_activity_total_hlth">Total Health</string>
+    <string name="title_activity_total_hlth">Total Health Tips</string>
     <string name="title_activity_alarms">Alarm Reminder</string>
     <string name="title_activity_live_cht">Live Chat</string>
     <string name="title_activity_alrm">Alarm</string>
@@ -770,7 +770,7 @@
     <string-array name="Chhattisgarh">
         <item>Bijapur (बीजापुर)</item>
         <item>Bilaspur (बिलासपुर)</item>
-        <item>>Durg (दुर्ग)</item>
+        <item>Durg (दुर्ग)</item>
         <item>Raipur (रायपुर)</item>
     </string-array>
     -------------------------------------------------
@@ -938,6 +938,14 @@
         <item>SignOut</item>
     </string-array>
     -------------------------------------------------
+    <string-array name="SkipSettings">
+        <item>About Us</item>
+        <item>Contact Us</item>
+        <item>Choose Language</item>
+        <item>Feedback</item>
+        <item>Version</item>
+    </string-array>
+    -------------------------------------------------
     <string name="login_success">Login success</string>
     <string name="Username">Email</string>
     <string name="Password">Password</string>
@@ -1013,7 +1021,7 @@
     <string name="invalid_email_or_password">Invalid email or not match password</string>
     <string name="version_hcms">HCMS 1.0</string>
     <string name="daily_tips1">Daily Health TIPS</string>
-    <string name="some_types_of_vitamins">Some types of VITAMINS</string>
+    <string name="some_types_of_vitamins">VITAMINS</string>
     <string name="andaman_nicobar">Andaman and Nicobar Island Cities</string>
     <string name="ap">Andhra Pradesh Cities</string>
     <string name="arp">Arunachal Pradesh Cities</string>

@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -28,6 +29,10 @@ public class DietPlan extends AppCompatActivity implements DietTab1.OnFragmentIn
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_diet_plan);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Diet Plan");
 
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -89,24 +94,6 @@ public class DietPlan extends AppCompatActivity implements DietTab1.OnFragmentIn
         if (id== R.id.title3){
             Intent i = new Intent(DietPlan.this,Feedback.class);
             startActivity(i);
-        }
-        if (id== R.id.title4){
-            FirebaseAuth.getInstance().signOut();
-            Intent intent = new Intent(DietPlan.this, LoginActivity.class);
-            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            startActivity(intent);
-            finish();
-        }
-        if (id== R.id.title15){
-            Intent i = new Intent(DietPlan.this,PortalPage.class);
-            startActivity(i);
-        }
-        if (id== R.id.title16){
-            FirebaseAuth.getInstance().signOut();
-            Intent intent = new Intent(DietPlan.this, LoginActivity.class);
-            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            startActivity(intent);
-            finish();
         }
         if (id == android.R.id.home) {
             this.finish();

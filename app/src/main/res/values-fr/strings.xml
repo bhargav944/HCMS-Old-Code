@@ -773,7 +773,7 @@
     <string-array name="Chhattisgarh">
         <item>Bijapur (बीजापुर)</item>
         <item>Bilaspur (बिलासपुर)</item>
-        <item>>Durg (दुर्ग)</item>
+        <item>Durg (दुर्ग)</item>
         <item>Raipur (रायपुर)</item>
     </string-array>
     -------------------------------------------------
@@ -939,6 +939,14 @@
         <item>Retour d'information</item>
         <item>Version</item>
         <item>Déconnexion</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="SkipSettings">
+        <item>À propos de nous</item>
+        <item>Contactez nous</item>
+        <item>Choisissez la langue</item>
+        <item>Retour d'information</item>
+        <item>Version</item>
     </string-array>
     -------------------------------------------------
     <string name="login_success">Connexion réussie</string>

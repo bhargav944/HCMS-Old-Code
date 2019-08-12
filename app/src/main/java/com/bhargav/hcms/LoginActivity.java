@@ -10,6 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bhargav.hcms.data.SharedPreferenceHelper;
@@ -44,6 +45,7 @@ public class LoginActivity extends AppCompatActivity {
             Pattern.compile("^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$", Pattern.CASE_INSENSITIVE);
     private EditText editTextUsername, editTextPassword;
     private LovelyProgressDialog waitingDialog;
+    TextView mSkip;
 
     private AuthUtils authUtils;
     private FirebaseAuth mAuth;
@@ -64,9 +66,21 @@ public class LoginActivity extends AppCompatActivity {
         fab = (FloatingActionButton) findViewById(R.id.fab);
         editTextUsername = (EditText) findViewById(R.id.et_username);
         editTextPassword = (EditText) findViewById(R.id.et_password);
+
+        mSkip = findViewById(R.id.skip);
+        mSkip.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view)
+            {
+                Intent i = new Intent(LoginActivity.this,SkipPortal.class);
+                startActivity(i);
+            }
+        });
+
         firstTimeAccess = true;
         initFirebase();
     }
+
     private void initFirebase() {
         //Khoi tao thanh phan de dang nhap, dang ky
         mAuth = FirebaseAuth.getInstance();

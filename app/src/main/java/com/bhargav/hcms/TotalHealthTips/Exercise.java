@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -27,6 +28,10 @@ public class Exercise extends AppCompatActivity implements ExerciseTab1.OnFragme
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exercise);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Exercise");
 
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -87,24 +92,6 @@ public class Exercise extends AppCompatActivity implements ExerciseTab1.OnFragme
         if (id== R.id.title3){
             Intent i = new Intent(Exercise.this,Feedback.class);
             startActivity(i);
-        }
-        if (id== R.id.title4){
-            FirebaseAuth.getInstance().signOut();
-            Intent intent = new Intent(Exercise.this, LoginActivity.class);
-            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            startActivity(intent);
-            finish();
-        }
-        if (id== R.id.title15){
-            Intent i = new Intent(Exercise.this,PortalPage.class);
-            startActivity(i);
-        }
-        if (id== R.id.title16){
-            FirebaseAuth.getInstance().signOut();
-            Intent intent = new Intent(Exercise.this, LoginActivity.class);
-            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            startActivity(intent);
-            finish();
         }
         if (id == android.R.id.home) {
             this.finish();

@@ -46,6 +46,7 @@ public class Alrm extends AppCompatActivity
         inst = this;
     }
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,6 +65,9 @@ public class Alrm extends AppCompatActivity
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        getSupportActionBar().setTitle("Alarm");
+        getSupportActionBar().setIcon(getDrawable(R.drawable.alarm));
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -157,9 +161,12 @@ public class Alrm extends AppCompatActivity
             Intent i = new Intent(Alrm.this,Settings.class);
             startActivity(i);
         }
-        if (id == R.id.feedback) {
-            Intent i = new Intent(Alrm.this,Feedback.class);
-            startActivity(i);
+        if (id == R.id.logout) {
+            FirebaseAuth.getInstance().signOut();
+            Intent intent = new Intent(Alrm.this, LoginActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(intent);
+            finish();
         }
 
         return super.onOptionsItemSelected(item);

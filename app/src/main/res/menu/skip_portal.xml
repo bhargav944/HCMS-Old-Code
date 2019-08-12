@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Hello"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_more">
+        <menu>
+            <item
+                android:id="@+id/action_login"
+                android:icon="@drawable/ic_login"
+                android:orderInCategory="100"
+                android:title="Login"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+</menu>

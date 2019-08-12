@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:id="@+id/idLayout"
+    tools:context=".SkipPortal"
+    tools:showIn="@layout/app_bar_skip_portal">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/msg"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/msg1"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:textSize="20dp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/phoneno"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="start"
+                android:textSize="20sp"
+                android:inputType="phone"
+                android:id="@+id/idTxtPhoneNo"
+                android:drawableEnd="@drawable/mobile_vol"
+                android:drawableRight="@drawable/mobile_vol"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/message1"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="start"
+                android:textSize="20sp"
+                android:id="@+id/idTxtMsg"
+                android:drawableEnd="@drawable/email_vol"
+                android:drawableRight="@drawable/email_vol"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/sendmessage"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center"
+                android:id="@+id/idbtnStart"
+                android:background="@drawable/bt_shape_2"
+                android:drawableLeft="@drawable/ic_menu_send"
+                android:onClick="sendSms"
+                android:gravity="center"
+                android:layout_centerHorizontal="true"/>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

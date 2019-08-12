@@ -14,6 +14,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="com.google.android.providers.gsf.permisson.READ_GSERVICES" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <application
         android:allowBackup="true"
@@ -22,6 +23,23 @@
         android:roundIcon="@drawable/hcms"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".SkipSettings"
+            android:label="@string/action_settings"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".SkipTotalHealth"
+            android:label="@string/title_activity_total_hlth"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".SkipVitamins"
+            android:label="@string/some_types_of_vitamins"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".SkipCalls"
+            android:label="@string/call"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SkipPortal"
+            android:label="@string/message"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
@@ -62,7 +80,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Settings"
-            android:label="@string/action_settings" />
+            android:label="@string/action_settings"
+            android:theme="@style/AppTheme.NoActionBar" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -84,7 +103,8 @@
             android:label="@string/contact" />
         <activity
             android:name=".Feedback"
-            android:label="@string/feedback" />
+            android:label="@string/feedback"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TopHsp"
             android:label="@string/title_activity_top_hsp"
@@ -519,106 +539,128 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Vitamins.VitaminA"
-            android:label="@string/vitamina" />
+            android:label="@string/vitamina"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Vitamins.VitaminB1"
-            android:label="@string/vitaminb1" />
+            android:label="@string/vitaminb1"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Vitamins.VitaminB2"
-            android:label="@string/vitaminb2" />
+            android:label="@string/vitaminb2"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Vitamins.VitaminB3"
-            android:label="@string/vitaminb3" />
+            android:label="@string/vitaminb3"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Vitamins.VitaminB5"
-            android:label="@string/vitaminb5" />
+            android:label="@string/vitaminb5"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Vitamins.VitaminB6"
-            android:label="@string/vitaminb6" />
+            android:label="@string/vitaminb6"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Vitamins.VitaminB7"
-            android:label="@string/vitaminb7" />
+            android:label="@string/vitaminb7"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Vitamins.VitaminB9"
-            android:label="@string/vitaminb9" />
+            android:label="@string/vitaminb9"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Vitamins.VitaminB12"
-            android:label="@string/vitaminb12" />
+            android:label="@string/vitaminb12"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Vitamins.VitaminC"
-            android:label="@string/vitaminc" />
+            android:label="@string/vitaminc"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Vitamins.VitaminD"
-            android:label="@string/vitamind" />
+            android:label="@string/vitamind"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Vitamins.VitaminE"
-            android:label="@string/vitamine" />
+            android:label="@string/vitamine"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Vitamins.VitaminK"
-            android:label="@string/vitamink" />
+            android:label="@string/vitamink"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TotalHlth"
             android:label="@string/title_activity_total_hlth"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TotalHealthTips.DietPlan"
-            android:label="@string/diet_plan" />
+            android:label="@string/diet_plan"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TotalHealthTips.Exercise"
-            android:label="@string/exercise" />
+            android:label="@string/exercise"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TotalHealthTips.RoutineMaker"
-            android:label="@string/routinemaker" />
+            android:label="@string/routinemaker"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TotalHealthTips.WorkoutManagement"
-            android:label="@string/workoutmanagement" />
+            android:label="@string/workoutmanagement"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TotalHealthTips.Pimples"
-            android:label="@string/pimples" />
+            android:label="@string/pimples"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TotalHealthTips.Scars"
-            android:label="@string/scars" />
+            android:label="@string/scars"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TotalHealthTips.FaceCare"
-            android:label="@string/facecare" />
+            android:label="@string/facecare"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TotalHealthTips.HairLoss"
-            android:label="@string/hairloss" />
+            android:label="@string/hairloss"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TotalHealthTips.Dandruff"
-            android:label="@string/dandruff" />
+            android:label="@string/dandruff"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TotalHealthTips.HairGrowth"
-            android:label="@string/hairgrowth" />
+            android:label="@string/hairgrowth"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TotalHealthTips.Cough"
-            android:label="@string/cough" />
+            android:label="@string/cough"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TotalHealthTips.StomachAche"
-            android:label="@string/stomach_ache" />
+            android:label="@string/stomach_ache"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TotalHealthTips.HeadAche"
-            android:label="@string/headache" />
+            android:label="@string/headache"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TotalHealthTips.BackPain"
-            android:label="@string/backpain" />
+            android:label="@string/backpain"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TotalHealthTips.JointPain"
-            android:label="@string/jointpain" />
+            android:label="@string/jointpain"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".TotalHealthTips.SunBurn"
-            android:label="@string/sunburn" />
+            android:label="@string/sunburn"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Alrm"
             android:label="@string/title_activity_alrm"
             android:theme="@style/AppTheme.NoActionBar" />
-
-        <service
-            android:name=".AlarmService"
-            android:enabled="true" />
-
-        <receiver android:name=".AlarmReceiver" />
-
         <activity
             android:name=".ResetPassword"
             android:label="Reset Password" />

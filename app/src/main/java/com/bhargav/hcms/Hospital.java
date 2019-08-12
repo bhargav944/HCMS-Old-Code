@@ -70,12 +70,15 @@ public class Hospital extends AppCompatActivity
 
         if(!isConnected(Hospital.this)) buildDialog(Hospital.this).show();
         else {
-            Toast.makeText(Hospital.this, R.string.hospitals_in_states_and_cities, Toast.LENGTH_SHORT).show();
+            Toast.makeText(Hospital.this, R.string.hospitals, Toast.LENGTH_SHORT).show();
             setContentView(R.layout.activity_hospital);
         }
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        getSupportActionBar().setTitle("Hospitals in INDIA");
+        getSupportActionBar().setIcon(getDrawable(R.drawable.hostpital_building));
 
         listview = (ListView) findViewById(R.id.list_item);
 
@@ -327,9 +330,12 @@ public class Hospital extends AppCompatActivity
             Intent i = new Intent(Hospital.this,Settings.class);
             startActivity(i);
         }
-        if (id == R.id.feedback) {
-            Intent i = new Intent(Hospital.this,Feedback.class);
-            startActivity(i);
+        if (id == R.id.logout) {
+            FirebaseAuth.getInstance().signOut();
+            Intent intent = new Intent(Hospital.this, LoginActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(intent);
+            finish();
         }
 
         return super.onOptionsItemSelected(item);

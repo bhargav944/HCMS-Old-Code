@@ -772,7 +772,7 @@
     <string-array name="Chhattisgarh">
         <item>Bijapur (बीजापुर)</item>
         <item>Bilaspur (बिलासपुर)</item>
-        <item>>Durg (दुर्ग)</item>
+        <item>Durg (दुर्ग)</item>
         <item>Raipur (रायपुर)</item>
     </string-array>
     -------------------------------------------------
@@ -938,6 +938,14 @@
         <item>प्रतिक्रिया</item>
         <item>संस्करण</item>
         <item>साइन आउट</item>
+    </string-array>
+    -------------------------------------------------
+    <string-array name="SkipSettings">
+        <item>हमारे बारे में</item>
+        <item>हमसे संपर्क करें</item>
+        <item>भाषा चुनें</item>
+        <item>प्रतिक्रिया</item>
+        <item>संस्करण</item>
     </string-array>
     -------------------------------------------------
     <string name="login_success">लॉगिन की सफलता</string>

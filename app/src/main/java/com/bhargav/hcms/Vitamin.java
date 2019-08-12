@@ -42,12 +42,15 @@ public class Vitamin extends AppCompatActivity
 
         if(!isConnected(Vitamin.this)) buildDialog(Vitamin.this).show();
         else {
-            Toast.makeText(Vitamin.this, R.string.some_types_of_vitamins, Toast.LENGTH_SHORT).show();
+            Toast.makeText(Vitamin.this, R.string.vitamins, Toast.LENGTH_SHORT).show();
             setContentView(R.layout.activity_vitamin);
         }
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        getSupportActionBar().setTitle("Vitamins");
+        getSupportActionBar().setIcon(getDrawable(R.drawable.vitamins));
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -174,9 +177,12 @@ public class Vitamin extends AppCompatActivity
             Intent i = new Intent(Vitamin.this,Settings.class);
             startActivity(i);
         }
-        if (id == R.id.feedback) {
-            Intent i = new Intent(Vitamin.this,Feedback.class);
-            startActivity(i);
+        if (id == R.id.logout) {
+            FirebaseAuth.getInstance().signOut();
+            Intent intent = new Intent(Vitamin.this, LoginActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(intent);
+            finish();
         }
 
         return super.onOptionsItemSelected(item);

@@ -2,33 +2,31 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <item android:title="Hello"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_more">
+        <menu>
+
     <item
         android:title="@string/about"
+        android:icon="@drawable/about_us"
+        android:orderInCategory="100"
         android:id="@+id/title1"
         app:showAsAction="never"/>
     <item
         android:title="@string/contact"
+        android:icon="@drawable/ic_call"
+        android:orderInCategory="100"
         android:id="@+id/title2"
         app:showAsAction="never"/>
     <item
         android:title="@string/feedback"
+        android:icon="@drawable/feedback"
+        android:orderInCategory="100"
         android:id="@+id/title3"
         app:showAsAction="never"/>
-    <item
-        android:title="@string/logout"
-        android:id="@+id/title4"
-        app:showAsAction="never"/>
 
-    <item
-        android:title="language"
-        android:id="@+id/title15"
-        android:icon="@drawable/home"
-        app:showAsAction="always"/>
-
-    <item
-        android:title="logout"
-        android:id="@+id/title16"
-        android:icon="@drawable/logout"
-        app:showAsAction="always"/>
+        </menu>
+    </item>
 
 </menu>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_message"
+                android:icon="@drawable/message"
+                android:title="@string/title_activity_msg" />
+            <item
+                android:id="@+id/nav_call"
+                android:icon="@drawable/ic_call"
+                android:title="@string/title_activity_calls" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="@string/daily_tips">
+            <menu>
+                <item
+                    android:id="@+id/nav_vitamins"
+                    android:icon="@drawable/vitamins"
+                    android:title="@string/vitamins" />
+                <item
+                    android:id="@+id/nav_totalhealth"
+                    android:icon="@drawable/totalhealth"
+                    android:title="@string/totalhealth" />
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="@string/others">
+            <menu>
+                <item
+                    android:id="@+id/nav_settings"
+                    android:icon="@drawable/settings"
+                    android:title="@string/action_settings"/>
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Login">
+        <menu>
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_login"
+                android:title="@string/login1"/>
+        </menu>
+    </item>
+
+</menu>

@@ -3,6 +3,7 @@ package com.bhargav.hcms.TotalHealthTips;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -20,6 +21,10 @@ public class RoutineMaker extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_routine_maker);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Routine Maker");
 
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -45,24 +50,6 @@ public class RoutineMaker extends AppCompatActivity {
         if (id== R.id.title3){
             Intent i = new Intent(RoutineMaker.this,Feedback.class);
             startActivity(i);
-        }
-        if (id== R.id.title4){
-            FirebaseAuth.getInstance().signOut();
-            Intent intent = new Intent(RoutineMaker.this, LoginActivity.class);
-            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            startActivity(intent);
-            finish();
-        }
-        if (id== R.id.title15){
-            Intent i = new Intent(RoutineMaker.this,PortalPage.class);
-            startActivity(i);
-        }
-        if (id== R.id.title16){
-            FirebaseAuth.getInstance().signOut();
-            Intent intent = new Intent(RoutineMaker.this, LoginActivity.class);
-            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            startActivity(intent);
-            finish();
         }
         if (id == android.R.id.home) {
             this.finish();

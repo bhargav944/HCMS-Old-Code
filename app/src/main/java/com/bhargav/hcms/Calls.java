@@ -96,6 +96,9 @@ public class Calls extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        getSupportActionBar().setTitle("Call");
+        getSupportActionBar().setIcon(getDrawable(R.drawable.ic_contact_us));
+
         btnCall = (Button) findViewById(R.id.idbtnCall);
         numTxt = (EditText) findViewById(R.id.idNumtxt);
 
@@ -183,9 +186,12 @@ public class Calls extends AppCompatActivity
             Intent i = new Intent(Calls.this,Settings.class);
             startActivity(i);
         }
-        if (id == R.id.feedback) {
-            Intent i = new Intent(Calls.this,Feedback.class);
-            startActivity(i);
+        if (id == R.id.logout) {
+            FirebaseAuth.getInstance().signOut();
+            Intent intent = new Intent(Calls.this, LoginActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(intent);
+            finish();
         }
 
         return super.onOptionsItemSelected(item);

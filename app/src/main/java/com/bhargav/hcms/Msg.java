@@ -101,6 +101,9 @@ public class Msg extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        getSupportActionBar().setTitle("Message");
+        getSupportActionBar().setIcon(getDrawable(R.drawable.message));
+
         btnStart = (Button) findViewById(R.id.idbtnStart);
         varMsg = (EditText) findViewById(R.id.idTxtMsg);
         varPhoneNo = (EditText) findViewById(R.id.idTxtPhoneNo);
@@ -217,9 +220,12 @@ public class Msg extends AppCompatActivity
             Intent i = new Intent(Msg.this,Settings.class);
             startActivity(i);
         }
-        if (id == R.id.feedback) {
-            Intent i = new Intent(Msg.this,Feedback.class);
-            startActivity(i);
+        if (id == R.id.logout) {
+            FirebaseAuth.getInstance().signOut();
+            Intent intent = new Intent(Msg.this, LoginActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(intent);
+            finish();
         }
 
         return super.onOptionsItemSelected(item);

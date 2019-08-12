@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -29,6 +30,10 @@ public class HairGrowth extends AppCompatActivity implements HairGrowthTab1.OnFr
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hair_growth);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Hair Growth");
 
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -86,27 +91,9 @@ public class HairGrowth extends AppCompatActivity implements HairGrowthTab1.OnFr
             Intent i = new Intent(HairGrowth.this,ContactUs.class);
             startActivity(i);
         }
-        if (id== R.id.title4){
+        if (id== R.id.title3){
             Intent i = new Intent(HairGrowth.this,Feedback.class);
             startActivity(i);
-        }
-        if (id== R.id.title5){
-            FirebaseAuth.getInstance().signOut();
-            Intent intent = new Intent(HairGrowth.this, LoginActivity.class);
-            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            startActivity(intent);
-            finish();
-        }
-        if (id== R.id.title15){
-            Intent i = new Intent(HairGrowth.this,PortalPage.class);
-            startActivity(i);
-        }
-        if (id== R.id.title16){
-            FirebaseAuth.getInstance().signOut();
-            Intent intent = new Intent(HairGrowth.this, LoginActivity.class);
-            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            startActivity(intent);
-            finish();
         }
         if (id == android.R.id.home) {
             this.finish();

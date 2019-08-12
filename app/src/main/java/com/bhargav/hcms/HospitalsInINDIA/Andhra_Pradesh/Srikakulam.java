@@ -93,7 +93,7 @@ public class Srikakulam extends AppCompatActivity {
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menuindividual, menu);
+        getMenuInflater().inflate(R.menu.activity_hospital_india, menu);
         return true;
     }
 
@@ -108,27 +108,9 @@ public class Srikakulam extends AppCompatActivity {
             Intent i = new Intent(Srikakulam.this,ContactUs.class);
             startActivity(i);
         }
-        if (id== R.id.title4){
+        if (id== R.id.title3){
             Intent i = new Intent(Srikakulam.this,Feedback.class);
             startActivity(i);
-        }
-        if (id== R.id.title5){
-            FirebaseAuth.getInstance().signOut();
-            Intent intent = new Intent(Srikakulam.this, LoginActivity.class);
-            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            startActivity(intent);
-            finish();
-        }
-        if (id== R.id.title15){
-            Intent i = new Intent(Srikakulam.this,PortalPage.class);
-            startActivity(i);
-        }
-        if (id== R.id.title16){
-            FirebaseAuth.getInstance().signOut();
-            Intent intent = new Intent(Srikakulam.this, LoginActivity.class);
-            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            startActivity(intent);
-            finish();
         }
         if (id == android.R.id.home) {
             this.finish();

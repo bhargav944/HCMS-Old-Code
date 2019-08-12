@@ -45,12 +45,15 @@ public class TotalHlth extends AppCompatActivity
 
         if(!isConnected(TotalHlth.this)) buildDialog(TotalHlth.this).show();
         else {
-            Toast.makeText(TotalHlth.this, R.string.daily_tips1, Toast.LENGTH_SHORT).show();
+            Toast.makeText(TotalHlth.this, R.string.totalhealth, Toast.LENGTH_SHORT).show();
             setContentView(R.layout.activity_total_hlth);
         }
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        getSupportActionBar().setTitle("Total Health Tips");
+        getSupportActionBar().setIcon(getDrawable(R.drawable.totalhealth));
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -189,9 +192,12 @@ public class TotalHlth extends AppCompatActivity
             Intent i = new Intent(TotalHlth.this,Settings.class);
             startActivity(i);
         }
-        if (id == R.id.feedback) {
-            Intent i = new Intent(TotalHlth.this,Feedback.class);
-            startActivity(i);
+        if (id == R.id.logout) {
+            FirebaseAuth.getInstance().signOut();
+            Intent intent = new Intent(TotalHlth.this, LoginActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+            startActivity(intent);
+            finish();
         }
 
         return super.onOptionsItemSelected(item);

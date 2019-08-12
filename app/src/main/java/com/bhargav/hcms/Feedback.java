@@ -3,6 +3,7 @@ package com.bhargav.hcms;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -20,6 +21,11 @@ public class Feedback extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feedback);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Feedback");
+        getSupportActionBar().setIcon(getDrawable(R.drawable.ic_feedback));
 
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -55,7 +61,7 @@ public class Feedback extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_settings, menu);
+        getMenuInflater().inflate(R.menu.activity_feedback, menu);
         return true;
     }
 
@@ -65,13 +71,6 @@ public class Feedback extends AppCompatActivity {
         if (id == R.id.title1) {
             Intent i = new Intent(Feedback.this, PortalPage.class);
             startActivity(i);
-        }
-        if (id == R.id.title2) {
-            FirebaseAuth.getInstance().signOut();
-            Intent intent = new Intent(Feedback.this, LoginActivity.class);
-            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            startActivity(intent);
-            finish();
         }
         if (id == android.R.id.home) {
             this.finish();

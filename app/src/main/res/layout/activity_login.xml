@@ -7,7 +7,7 @@
     <android.support.v7.widget.CardView
         android:id="@+id/cv"
         android:layout_width="300dp"
-        android:layout_height="300dp"
+        android:layout_height="325dp"
         android:layout_centerInParent="true"
         app:cardCornerRadius="6dp"
         app:cardElevation="3dp"
@@ -98,17 +98,19 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="50dp"
                 android:layout_marginTop="25dp"
                 android:gravity="center">
 
                 <Button
                     android:id="@+id/bt_go"
-                    android:layout_width="150dp"
+                    android:layout_width="120dp"
                     android:layout_height="50dp"
                     android:background="@drawable/bt_shape"
                     android:stateListAnimator="@drawable/state_list_animator_z"
                     android:text="@string/login"
+                    android:drawableLeft="@drawable/ic_login"
+                    android:drawablePadding="-5dp"
                     android:textColor="#d3d3d3"
                     android:onClick="clickLogin"/>
             </RelativeLayout>
@@ -117,12 +119,28 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="15dp"
                 android:text="@string/forgot_your_password"
                 android:textColor="#9a9a9a"
                 android:textSize="12sp"
                 android:onClick="clickResetPassword"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:text="Skip"
+                android:id="@+id/skip"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/ic_skip"
+                android:textColor="#9a9a9a"
+                android:textSize="15sp"
+                android:layout_marginBottom="5dp"
+                android:onClick="clickResetPassword"/>
+
         </LinearLayout>
+
     </android.support.v7.widget.CardView>
 
     <android.support.design.widget.FloatingActionButton
